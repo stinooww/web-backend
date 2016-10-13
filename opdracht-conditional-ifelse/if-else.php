@@ -7,9 +7,9 @@
  */
 
 
-$jaartal=2016;
+$jaartal=2017;
 
-if($jaartal % 4==0 && $jaartal %400==0 && $jaartal %100 !== 0 ){
+if($jaartal % 4==0 || $jaartal %400==0 && $jaartal %100 !== 0 ){
 
     $zin =' is een schrikkeljaar.';
 }else{
@@ -26,7 +26,9 @@ if($jaartal % 4==0 && $jaartal %400==0 && $jaartal %100 !== 0 ){
 <head></head>
 <body>
 
-	<h1>If else</h1>
+	<h1>opdracht If else</h1>
+
+
 <p> Het jaar <?php    echo $jaartal." ". $zin  ?> </p>
 </body>
 </html>
