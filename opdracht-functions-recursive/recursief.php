@@ -6,36 +6,23 @@
  * Time: 21:00
  */
 
-$startkapitaal = 100000;
-$rente = 8;
+
+
+function bank($bedrag){
+           $jaar = 1;
+           for ($jaar;$jaar<=10;++$jaar){
+               $nieuwbedrag = $bedrag *pow(1.08,$jaar);
+               echo 'na '.$jaar.' jaar heeft Hans '.$nieuwbedrag.'euro <br>';
+           }
+       }
+
+$startbedrag = 100000;
+$rentevoet= 8;
 $looptijd = 10;
 
-function berekenRente ($startkapitaal,$rente,$looptijd){
-
-     static $teller=1;
-   static  $resultaat= array();
-
-    if($teller<$looptijd){
-
-        $bedragRente = floor($startkapitaal*($rente/100));
-        $nieuwBedrag = $bedragRente +$startkapitaal;
-        $resultaat[$teller] =   "Het bedrag na ".$teller." jaar is:". $nieuwBedrag."  en uw ontvangen rente daarop bedraagt:". $bedragRente;
-
-        ++$teller;
-
-	return berekenRente ($startkapitaal,$rente,$looptijd);
-     		}
-     		else
-     		{
-     			return $resultaat;
-     		}
 
 
 
-}
-
-
-$hans= berekenRente ($startkapitaal,$rente,$looptijd);
 
 ?>
 
@@ -46,16 +33,8 @@ $hans= berekenRente ($startkapitaal,$rente,$looptijd);
 <body>
 
 	<h1>Recursief case hansza</h1>
+<?php bank(100000); ?>
 
-<!--    // waarom werkt dit niet?-->
-<?php //berekenRente($startkapitaal,$rente,$looptijd); ?>
-
-
-<!---->
-<!--    fout in mijn code maar vind die niet-->
-<?php foreach($hans as $value): ?>
-   				<p><?php echo $value ?></p>
-   			<?php endforeach ?>
 </body>
 </html>
 

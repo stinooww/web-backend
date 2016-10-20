@@ -55,7 +55,7 @@ function func3_static ($argument3){
 <!--    --><?php //func2_global ($md5HashKey1) ;   ?>
 <!--    --><?php //;   ?>
     <p>Het karakter "<?php echo $argument1?>" komt
-        <?php echo func1_normaal()?>% voor in de string "     <?php echo $md5HashKey ?>"</p>
+        <?php echo func1_normaal($argument1)?>% voor in de string "     <?php echo $md5HashKey ?>"</p>
 
    		<p>Het karakter "<?php echo $argument2?>" komt
             <?php echo func2_global ($md5HashKey1) ; ?>% voor in de string "<?php echo $md5HashKey ?>"</p>

@@ -26,8 +26,13 @@ function isEven($getal1){
     return $bool;
 }
 
-function uitbreiding(){
+function uitbreiding($string){
+$array = str_split($string);
+    $tostring =  strtoupper($string);
 
+    $lengte = count($array);
+    $antwoord = $tostring." en de lengte is :". (string)$lengte;
+    return $antwoord;
 }
 ?>
 
