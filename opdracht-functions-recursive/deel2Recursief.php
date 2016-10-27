@@ -13,23 +13,23 @@ $tijd = 10;
 
 function berekenRente (){
 
-//     static $teller=1;
-//   static  $resultaat= array();
+     static $teller=1;
+   static  $resultaat= array();
 
-//    if($teller<$tijd){
-//
-//        $bedragRente = floor($startkapitaal*($rente/100));
-//        $nieuwBedrag = $bedragRente +$startkapitaal;
-//        $resultaat[$teller] =   "Het bedrag na ".$teller." jaar is:". $nieuwBedrag."  en uw ontvangen rente daarop bedraagt:". $bedragRente;
-//
-//        ++$teller;
-//
-//	return berekenRente ($startkapitaal,$rente,$looptijd);
-//     		}
-//     		else
-//     		{
-//     			return $resultaat;
-//     		}
+    if($teller<$tijd){
+
+        $bedragRente = floor($startkapitaal*($rente/100));
+        $nieuwBedrag = $bedragRente +$startkapitaal;
+        $resultaat[$teller] =   "Het bedrag na ".$teller." jaar is:". $nieuwBedrag."  en uw ontvangen rente daarop bedraagt:". $bedragRente;
+
+        ++$teller;
+
+	return berekenRente ($startkapitaal,$rente,$looptijd);
+     		}
+     		else
+     		{
+     			return $resultaat;
+     		}
 
 
 

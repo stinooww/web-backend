@@ -45,7 +45,8 @@ $artikels=array(
 <?php var_dump($artikels) ?>
 
 <section class="artikel">
-
+    <?php  ?>
+<foreach>   </foreach>
     <h2>
 
     </h2>

@@ -34,7 +34,11 @@ $lijst = array();
 //}
 
 foreach ( $omkeren as  $letter){
-	++$lijst[$letter];
+    if ( !isset( $lijst[$letter] ) ) {
+        $lijst[$letter] = 1;
+    } else {
+        ++$lijst[$letter];
+    }
 
 }
 //krijg foutmeldingen maar bergijp niet waarom
