@@ -16,7 +16,7 @@
 			$message = "Welkom.";
 		}
 		else {
-			$message = "Username and/or password is wrong. Please try again.";
+			$message = "gebruikersnaam of passwoord is fout. Probeer opnieuw";
 		}
 	}
 ?>

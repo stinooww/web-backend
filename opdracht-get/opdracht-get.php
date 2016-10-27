@@ -31,30 +31,91 @@ $artikels=array(
 
 );
 
+$individueelArtikel		=	false;
+	$nietBestaandArtikel	=	false;
 
+	// Controleren of de get-variabele ID geset is om een individueel artikel op te halen
+	if ( isset ( $_GET['id'] ) )
+	{
+		$id = $_GET['id'];
+
+		// Controleren of de opgevraagde key (=id) bestaat in de array $artikels
+		if ( array_key_exists( $id , $artikels ) )
+		{
+			$artikels 			= 	array( $artikels[$id] );
+			$individueelArtikel	=	true;
+		}
+		else
+		{
+			$nietBestaandArtikel	=	true;
+		}
+	}
 ?>
 
+
 <!DOCTYPE html>
-<html >
-<meta charset="utf-8">
-<head></head>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<?php if (!$individueelArtikel): ?>
+		<title>Oplossing get</title>
+	<?php elseif ($nietBestaandArtikel):  ?>
+		<title>Oplossing get: Artikel met id <?php echo $id ?> Bestaat niet ?></title>
+	<?php else: ?>
+		<title>Oplossing get: <?php echo $artikels[0]["titel"]  ?></title>
+	<?php endif ?>
+	<style>
+
+		body {
+			font-family: sans-serif;
+		}
+
+		article h2 {
+			border-bottom: 1px solid grey;
+		}
+
+		.multiple {
+			float: left;
+			width: 300px;
+			margin-left: 30px;
+			padding: 10px;
+
+			background-color: lightgray;
+		}
+
+		img {
+			width: 100%;
+		}
+
+		.single {
+			width: 600px
+		}
+
+	</style>
+</head>
 <body>
+	<?php if (!$nietBestaandArtikel): ?>
+		<div class="container">
+			<?php foreach ($artikels as $id => $artikel): ?>
+				<?php if ($individueelArtikel): ?>
+					<a href="opdracht-get.php">Terug naar overzicht</a>
+				<?php endif ?>
+				<article class="<?php echo (!$individueelArtikel) ? 'multiple' : 'single' ?>">
+					<h1><?php echo $artikel["titel"] ?></h1>
+					<p><?php echo $artikel["datum"] ?></p>
+					<img src="<?php echo $artikel['afbeelding'] ?>" alt="<?php echo $artikel['afbeeldingBeschrijving'] ?>">
+					<p><?php echo (!$individueelArtikel) ? (substr($artikel["inhoud"], 0, 50) . "...") : $artikel["inhoud"] ?></p>
+					<?php if (!$individueelArtikel): ?>
+						<a href="opdracht-get.php?id=<?php echo $id ?>">Lees meer</a>
+					<?php endif ?>
+				</article>
+			<?php endforeach ?>
+		</div>
+	<?php else: ?>
+		<p>Het artikel met id <? echo $id ?> bestaat niet. Probeer een ander artikel.</p>
+		<a href="opdracht-get.php">Terug</a>
+	<?php endif ?>
 
-	<h1>opdracht get</h1>
 
-<?php var_dump($artikels) ?>
-
-<section class="artikel">
-    <?php  ?>
-<foreach>   </foreach>
-    <h2>
-
-    </h2>
-    <p></p>
-    <img src="">
-    <p></p>
-    <a href=""></a>
-</section>
 </body>
 </html>
-

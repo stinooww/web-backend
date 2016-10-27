@@ -9,7 +9,7 @@
 
 	$tekst 			= 	'Test 123...';
 	$_tekst 		= 	'Test 456';
-	$_tekst 		= 	'test';
+	$_tekst 		= 	'test.txt';
 	$zi_n 			= 	'Jean D\'Haeseleir gaat naar Praag!!';
 	$beschrijving 	= 	"Vogelbekdier";
 ?>

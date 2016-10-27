@@ -20,7 +20,7 @@
 
 		if ( $_POST["gebruikersnaam"] == $accountArray[0] && $_POST["paswoord"] == $accountArray[1] ) {
 			setcookie("loginCookie",true, time()+360);
-			header("Location: oplossing-cookies.php");
+			header("Location: cookies.php");
 		}
 		else {
 			$message = "Gebruikersnaam en/of paswoord niet correct. Probeer opnieuw.";
@@ -34,7 +34,7 @@
 
 	if ( isset($_GET["delete-cookie"]) ) {
 		setcookie("loginCookie", "", time()-3600);
-		header("Location: oplossing-cookies.php");
+		header("Location: cookies.php");
 	}
 ?>
 
