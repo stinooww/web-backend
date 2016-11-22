@@ -19,8 +19,8 @@
 			$message = "gebruikersnaam of passwoord is fout. Probeer opnieuw";
 		}
 	}
-?>
-
+//?>
+<!--// beter om formulie niet meer te late zine als je bent ingelogd , via variabel $islogedin-->
 
 <!DOCTYPE html>
 <html lang="en">

@@ -17,6 +17,8 @@
 
 	var_dump($_SESSION);
 
+$email = ( isset($_SESSION["registratie"]["email"]) ? $_SESSION["registratie"]["email"] : "" );
+
 	$straat = ( isset($_SESSION["registratie"]["straat"]) ? $_SESSION["registratie"]["straat"] : "" );
 	$nummer = ( isset($_SESSION["registratie"]["nummer"]) ? $_SESSION["registratie"]["nummer"] : "" );
 	$gemeente = ( isset($_SESSION["registratie"]["gemeente"]) ? $_SESSION["registratie"]["gemeente"] : "" );
@@ -56,7 +58,7 @@
 <body>
 	<h1>Registratiegegevens</h1>
 	<ul>
-		<li>e-mail: <?= $_SESSION["registratie"]["e-mail"] ?></li>
+		<li>e-mail: <?= $email ?></li>
 		<li>nickname: <?= $_SESSION["registratie"]["nickname"] ?></li>
 	</ul>
 

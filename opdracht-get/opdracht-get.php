@@ -103,7 +103,7 @@ $individueelArtikel		=	false;
 				<article class="<?php echo (!$individueelArtikel) ? 'multiple' : 'single' ?>">
 					<h1><?php echo $artikel["titel"] ?></h1>
 					<p><?php echo $artikel["datum"] ?></p>
-					<img src="<?php echo $artikel['afbeelding'] ?>" alt="<?php echo $artikel['afbeeldingBeschrijving'] ?>">
+					<img src="img/<?php echo $artikel['afbeelding'] ?>" alt="<?php echo $artikel['afbeeldingbeschrijving'] ?>">
 					<p><?php echo (!$individueelArtikel) ? (substr($artikel["inhoud"], 0, 50) . "...") : $artikel["inhoud"] ?></p>
 					<?php if (!$individueelArtikel): ?>
 						<a href="opdracht-get.php?id=<?php echo $id ?>">Lees meer</a>
