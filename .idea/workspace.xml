@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d2ff0a4-4c01-42c3-9dfd-418ea9d8e589" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/opdracht-date/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/opdracht-herhalingsoefening01/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/opdracht-include-require/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/opdracht-include-require/view/body-partial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/opdracht-include-require/view/footer-partial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/opdracht-include-require/view/header-partial.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/opdracht-get/opdracht-get.php" afterPath="$PROJECT_DIR$/opdracht-get/opdracht-get.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/opdracht-post/post.php" afterPath="$PROJECT_DIR$/opdracht-post/post.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/opdracht-session/adres.php" afterPath="$PROJECT_DIR$/opdracht-session/adres.php" />
     </list>
     <ignored path="oplossingen.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,7 +23,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/opdracht-include-require/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -40,19 +31,6 @@
               <folding>
                 <element signature="e#6#86#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Motivatie.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/opdracht - motivatie/Motivatie.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="238">
-                <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -369,7 +347,7 @@
       <workItem from="1477558825799" duration="9010000" />
       <workItem from="1479031919418" duration="611000" />
       <workItem from="1479034288694" duration="1262000" />
-      <workItem from="1479724506558" duration="7697000" />
+      <workItem from="1479724506558" duration="8026000" />
     </task>
     <task id="LOCAL-00001" summary="update van gemaakte oefeningen deel 1">
       <created>1476366442971</created>
@@ -399,21 +377,28 @@
       <option name="project" value="LOCAL" />
       <updated>1477579801880</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="motivatie opdracht en eerste versie include etc">
+      <created>1479817713554</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1479817713554</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75696000" />
+    <option name="totallyTimeSpent" value="76025000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1315" height="784" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.212749" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.212749" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -444,7 +429,8 @@
     <MESSAGE value="update van gemaakte oefeningen deel 2" />
     <MESSAGE value="update van gemaakte oefeningen deel 3+4&#10;get en post en date&#10;oefeningen deze week: session en cookies" />
     <MESSAGE value="kleine foutjes etc verbeterd" />
-    <option name="LAST_COMMIT_MESSAGE" value="kleine foutjes etc verbeterd" />
+    <MESSAGE value="motivatie opdracht en eerste versie include etc" />
+    <option name="LAST_COMMIT_MESSAGE" value="motivatie opdracht en eerste versie include etc" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -704,6 +690,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -718,6 +705,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="e#6#86#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -811,6 +801,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/opdracht - motivatie/Motivatie.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="374">
+            <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/opdracht-include-require/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -818,17 +819,6 @@
           <folding>
             <element signature="e#6#86#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/opdracht - motivatie/Motivatie.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="238">
-            <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
