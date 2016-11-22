@@ -1,5 +1,7 @@
-##Motivatie
 
+
+Motivatie
+-------
 
 
 
@@ -9,16 +11,16 @@ Het motivatie-bestand moet de volgende dingen bevatten
 
  - een H2 met naam 'Waarom ik voor MT' heb gekozen
 
-  - Schrijf hier enkele zinnen waarom je voor MT hebt gekozen
- - En leg uit hoe MT deze verwachtingen heeft ingelost (of hoe niet...)
+    - Schrijf hier enkele zinnen waarom je voor MT hebt gekozen
+    - En leg uit hoe MT deze verwachtingen heeft ingelost (of hoe niet...)
 
 
 
 
 
  - Een H2 met tekst 'Feedback voor de cursus web backend'
- - Beschrijf kort één ding dat je sterk vindt aan de cursus web backend
- - En kort één punt dat zeker verbeterd moet worden.
+    - Beschrijf kort één ding dat je sterk vindt aan de cursus web backend
+    - En kort één punt dat zeker verbeterd moet worden.
  
 
 

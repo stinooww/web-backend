@@ -40,8 +40,8 @@
         <entry file="file://$PROJECT_DIR$/opdracht-motivatie/Motivatie.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="187">
-                <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -348,7 +348,7 @@
       <workItem from="1477558825799" duration="9010000" />
       <workItem from="1479031919418" duration="611000" />
       <workItem from="1479034288694" duration="1262000" />
-      <workItem from="1479724506558" duration="8982000" />
+      <workItem from="1479724506558" duration="9189000" />
     </task>
     <task id="LOCAL-00001" summary="update van gemaakte oefeningen deel 1">
       <created>1476366442971</created>
@@ -399,11 +399,18 @@
       <option name="project" value="LOCAL" />
       <updated>1479818151815</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="motivatie opdracht edit">
+      <created>1479819265934</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1479819265934</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76981000" />
+    <option name="totallyTimeSpent" value="77188000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1315" height="784" extended-state="6" />
@@ -446,7 +453,8 @@
     <MESSAGE value="kleine foutjes etc verbeterd" />
     <MESSAGE value="motivatie opdracht en eerste versie include etc" />
     <MESSAGE value="motivatie opdracht" />
-    <option name="LAST_COMMIT_MESSAGE" value="motivatie opdracht" />
+    <MESSAGE value="motivatie opdracht edit" />
+    <option name="LAST_COMMIT_MESSAGE" value="motivatie opdracht edit" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -830,8 +838,8 @@
     <entry file="file://$PROJECT_DIR$/opdracht-motivatie/Motivatie.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="187">
-            <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
