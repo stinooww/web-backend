@@ -22,6 +22,16 @@
 <body>
 
 
+
+<?php foreach ( $artikels as $id => $artikel): ?>
+<article>
+    <h1><?= $artikel[ 'titel' ] ?></h1>
+    <p><?= $artikel[ 'text' ] ?></p>
+    <p><?= $artikel[ 'tags' ] ?></p>
+    <a href="index.php?artikel=<?= $id ?>">lees meer</a>
+</article>
+<?php endforeach ?>
+
 <section class="inhoud">
 
     <h2> In dit artikel leest u wat meer over waarom we best een include gebruiken</h2>
