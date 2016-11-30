@@ -5,7 +5,7 @@
  * Date: 28-11-2016
  * Time: 14:57
  */
-
+session_start();
 $messageCode;
 $message= array();
 $createMessage = false;
@@ -40,8 +40,14 @@ switch ($messageCode){
         $message['text'] =  "Er werd met het formulier geknoeid";
         break;
 
+    case "VALIDATION-CODE-LENGTH" : $message[ 'type' ] = "error";
+        $message['text']= "De kortingscode heeft niet de juiste lengte";
+        $createMessage= true;
+        break;
 
-
+}
+if($createMessage == true){
+    createMessage($message);
 }
     logToFile( $message );
 }
@@ -76,3 +82,38 @@ function getUserIP()
 
     return $ip;
 }
+
+function createMessage($message ){
+    $_SESSION[ 'message' ]=$message;
+}
+
+function showMessage(){
+    $message = false;
+   if(isset($_SESSION[ 'message' ])){
+       $message	=	$_SESSION[ 'message' ];
+       unset( $_SESSION[ 'message' ] );
+   }
+   return $message;
+}
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<?php if (!$valid): ?>
+<h2>geef uw kortingscode op</h2>
+<form  action="index.php" method="post">
+    <label for="code">Kortingscode</label>
+    <input type="text" name="code" id="code">
+    <button type="submit">Verzenden</button>
+
+</form>
+<?php  else: ?>
+<p> "Korting toegekend!"</p>
+<?php  endif;?>
+</body>
+</html>
