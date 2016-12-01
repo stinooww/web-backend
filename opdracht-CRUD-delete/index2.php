@@ -28,7 +28,9 @@ try {
    		foreach ($brouwers[0] as $key => $value) {
    			$kolomNaam[] = $key;
    		}
-$query ="Delete * from brouwers where brouwernr= :brouwernr";
+$query ="DELETE * from brouwers where brouwernr= :brouwernr";
+    $statement = $db->prepare($query);
+               $statement->execute();
 
 }catch(PDOException $ex){
     $bericht= "fout door :". $ex->getMessage();

@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d2ff0a4-4c01-42c3-9dfd-418ea9d8e589" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/opdracht-CRUD-delete/icon-delete.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/opdracht-CRUD-delete/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/opdracht-CRUD-delete/index2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/opdracht-CRUD-insert/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/opdracht-CRUD-query/deel1.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/opdracht-CRUD-query/deel2.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/opdracht-error-handling/index.php" afterPath="$PROJECT_DIR$/opdracht-error-handling/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/opdracht-CRUD-delete/index.php" afterPath="$PROJECT_DIR$/opdracht-CRUD-delete/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/opdracht-CRUD-delete/index2.php" afterPath="$PROJECT_DIR$/opdracht-CRUD-delete/index2.php" />
     </list>
     <ignored path="oplossingen.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,8 +28,8 @@
       <file leaf-file-name="voorbeeld-crud-query-result-pdo.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../cursus/public/cursus/voorbeelden/voorbeeld-crud-query-result-pdo-041/voorbeeld-crud-query-result-pdo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="22" selection-end-column="9" />
+            <state relative-caret-position="1326">
+              <caret line="78" column="8" selection-start-line="78" selection-start-column="8" selection-end-line="82" selection-end-column="13" />
               <folding>
                 <marker date="1474552073674" expanded="true" signature="231:258" ph="SELECT * FRO... bieren" />
               </folding>
@@ -45,7 +40,7 @@
       <file leaf-file-name="deel1.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/opdracht-CRUD-query/deel1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-153">
+            <state relative-caret-position="-282">
               <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding>
                 <element signature="e#6#86#0#PHP" expanded="true" />
@@ -57,30 +52,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/opdracht-CRUD-delete/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="24" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+            <state relative-caret-position="468">
+              <caret line="91" column="44" selection-start-line="91" selection-start-column="44" selection-end-line="91" selection-end-column="44" />
               <folding>
                 <element signature="e#6#86#0#PHP" expanded="true" />
-                <marker date="1480504140140" expanded="true" signature="239:269" ph="SELECT * FRO... brouwers" />
-                <marker date="1480504140140" expanded="true" signature="239:317" ph="SELECT * FRO... brouwers" />
-                <marker date="1480504140140" expanded="true" signature="803:822" ph="..." />
-                <marker date="1480504140140" expanded="true" signature="1072:1142" ph="..." />
+                <marker date="1480601947044" expanded="true" signature="239:254" ph="SELECT * FRO... brouwers" />
+                <marker date="1480601947044" expanded="true" signature="239:262" ph="SELECT * FRO... bieren" />
+                <marker date="1480601947044" expanded="true" signature="239:310" ph="SELECT * FRO... brouwers" />
+                <marker date="1480601947044" expanded="true" signature="799:818" ph="..." />
+                <marker date="1480601947044" expanded="true" signature="1427:2172" ph="..." />
+                <marker date="1480601947044" expanded="true" signature="1563:2152" ph="..." />
+                <marker date="1480601947044" expanded="true" signature="1579:1828" ph="..." />
+                <marker date="1480601947044" expanded="true" signature="1595:1809" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index2.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/opdracht-CRUD-delete/index2.php">
+      <file leaf-file-name="phpoefening-025-a-oplossing.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../cursus/public/cursus/opdrachten/opdracht-CRUD-delete/oplossing-CRUD-delete/phpoefening-025-a-oplossing.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+            <state relative-caret-position="-573">
+              <caret line="79" column="0" selection-start-line="74" selection-start-column="12" selection-end-line="79" selection-end-column="0" />
               <folding>
-                <element signature="e#6#86#0#PHP" expanded="true" />
-                <marker date="1480504381640" expanded="true" signature="239:269" ph="SELECT * FRO... brouwers" />
+                <marker date="1474552065351" expanded="true" signature="185:243" ph="DELETE FROM " />
+                <marker date="1474552065351" expanded="true" signature="726:757" ph="SELECT * FRO... brouwers" />
               </folding>
             </state>
           </provider>
@@ -152,8 +151,8 @@
         <option value="$PROJECT_DIR$/opdracht-CRUD-query/deel2.php" />
         <option value="$PROJECT_DIR$/../../web-backend2015/web-backend-oplossingen-master/oplossing-crud-insert/oplossing-crud-insert.php" />
         <option value="$PROJECT_DIR$/opdracht-CRUD-insert/index.php" />
-        <option value="$PROJECT_DIR$/opdracht-CRUD-delete/index.php" />
         <option value="$PROJECT_DIR$/opdracht-CRUD-delete/index2.php" />
+        <option value="$PROJECT_DIR$/opdracht-CRUD-delete/index.php" />
       </list>
     </option>
   </component>
@@ -170,7 +169,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1320" />
+    <option name="width" value="1319" />
     <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -413,7 +412,7 @@
       <workItem from="1479034288694" duration="1262000" />
       <workItem from="1479724506558" duration="27627000" />
       <workItem from="1480194474307" duration="20314000" />
-      <workItem from="1480442900595" duration="8932000" />
+      <workItem from="1480442900595" duration="19379000" />
     </task>
     <task id="LOCAL-00001" summary="update van gemaakte oefeningen deel 1">
       <created>1476366442971</created>
@@ -506,17 +505,24 @@
       <option name="project" value="LOCAL" />
       <updated>1480353257324</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="opdracht crud select insert delete">
+      <created>1480504440523</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1480504440523</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124872000" />
+    <option name="totallyTimeSpent" value="135319000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1319" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2611111" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2613185" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -557,7 +563,8 @@
     <MESSAGE value="opdracht classes" />
     <MESSAGE value="opdracht classes extends en port" />
     <MESSAGE value="opdracht error handling" />
-    <option name="LAST_COMMIT_MESSAGE" value="opdracht error handling" />
+    <MESSAGE value="opdracht crud select insert delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="opdracht crud select insert delete" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -565,27 +572,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../cursus/public/cursus/opdrachten/opdracht-classes-begin/oplossing-classes-begin/classes/Percent-class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="86" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cursus/public/cursus/voorbeelden/voorbeeld-classes-construct-049/Finn-class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/opdracht-classes-begin/classes/Percent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../cursus/public/cursus/opdrachten/opdracht-classes-begin/oplossing-classes-begin/application.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -882,16 +868,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../cursus/public/cursus/voorbeelden/voorbeeld-crud-query-result-pdo-041/voorbeeld-crud-query-result-pdo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="22" selection-end-column="9" />
-          <folding>
-            <marker date="1474552073674" expanded="true" signature="231:258" ph="SELECT * FRO... bieren" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/opdracht-CRUD-query/deel2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="461">
@@ -913,9 +889,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/opdracht-CRUD-delete/index2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+          <folding>
+            <element signature="e#6#86#0#PHP" expanded="true" />
+            <marker date="1480506130909" expanded="true" signature="239:269" ph="SELECT * FRO... brouwers" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/opdracht-CRUD-insert/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
+        <state relative-caret-position="850">
           <caret line="50" column="6" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
           <folding>
             <element signature="e#6#86#0#PHP" expanded="true" />
@@ -924,9 +911,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../cursus/public/cursus/voorbeelden/voorbeeld-crud-query-result-pdo-041/voorbeeld-crud-query-result-pdo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="78" column="8" selection-start-line="78" selection-start-column="8" selection-end-line="82" selection-end-column="13" />
+          <folding>
+            <marker date="1474552073674" expanded="true" signature="231:258" ph="SELECT * FRO... bieren" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cursus/public/cursus/opdrachten/opdracht-CRUD-query/oplossingc-crud-query/phpoefening-023-a-oplossing.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-474">
+          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#1244#1360#0#PHP" expanded="false" />
+            <marker date="1474552065472" expanded="true" signature="142:324" ph="SELECT * FRO... bieren" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1706">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/opdracht-CRUD-query/deel1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
+        <state relative-caret-position="-282">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
             <element signature="e#6#86#0#PHP" expanded="true" />
@@ -937,27 +954,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/opdracht-CRUD-delete/index.php">
+    <entry file="file://$PROJECT_DIR$/../cursus/public/cursus/opdrachten/opdracht-CRUD-delete/oplossing-CRUD-delete/phpoefening-025-a-oplossing.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="24" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        <state relative-caret-position="-573">
+          <caret line="79" column="0" selection-start-line="74" selection-start-column="12" selection-end-line="79" selection-end-column="0" />
           <folding>
-            <element signature="e#6#86#0#PHP" expanded="true" />
-            <marker date="1480504140140" expanded="true" signature="239:269" ph="SELECT * FRO... brouwers" />
-            <marker date="1480504140140" expanded="true" signature="239:317" ph="SELECT * FRO... brouwers" />
-            <marker date="1480504140140" expanded="true" signature="803:822" ph="..." />
-            <marker date="1480504140140" expanded="true" signature="1072:1142" ph="..." />
+            <marker date="1474552065351" expanded="true" signature="185:243" ph="DELETE FROM " />
+            <marker date="1474552065351" expanded="true" signature="726:757" ph="SELECT * FRO... brouwers" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/opdracht-CRUD-delete/index2.php">
+    <entry file="file://$PROJECT_DIR$/opdracht-CRUD-delete/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        <state relative-caret-position="468">
+          <caret line="91" column="44" selection-start-line="91" selection-start-column="44" selection-end-line="91" selection-end-column="44" />
           <folding>
             <element signature="e#6#86#0#PHP" expanded="true" />
-            <marker date="1480504381640" expanded="true" signature="239:269" ph="SELECT * FRO... brouwers" />
+            <marker date="1480601947044" expanded="true" signature="239:254" ph="SELECT * FRO... brouwers" />
+            <marker date="1480601947044" expanded="true" signature="239:262" ph="SELECT * FRO... bieren" />
+            <marker date="1480601947044" expanded="true" signature="239:310" ph="SELECT * FRO... brouwers" />
+            <marker date="1480601947044" expanded="true" signature="799:818" ph="..." />
+            <marker date="1480601947044" expanded="true" signature="1427:2172" ph="..." />
+            <marker date="1480601947044" expanded="true" signature="1563:2152" ph="..." />
+            <marker date="1480601947044" expanded="true" signature="1579:1828" ph="..." />
+            <marker date="1480601947044" expanded="true" signature="1595:1809" ph="..." />
           </folding>
         </state>
       </provider>
