@@ -7,48 +7,40 @@
  */
 
 
-$bericht="";
+$bericht = "";
 try {
     $db = new PDO('mysql:host=localhost;dbname=bieren', 'root', 'stijn'); // Connectie maken
 
 
-        $query = "SELECT b.biernr,	b.naam, 
-												b.brouwernr, 
-												b.soortnr, 
-												b.alcohol,
-												br.naam,
-												br.adres,
-												br.gemeente,
-												br.omzet,
+    $query = "SELECT *
 									FROM bieren as b
 									INNER JOIN brouwers as br
 									ON b.brouwernr = br.brouwernr
 									WHERE b.naam LIKE ='du%' AND br.brnaam LIKE '%a%'";
 
-        $statement = $db->prepare($query);
-        $statement->execute();
+    $statement = $db->prepare($query);
+    $statement->execute();
 //        $fetchRow = array();
 
     $bieren = array();
 
-  		while ($row = $statement->fetch( PDO::FETCH_ASSOC )) {
-  			$bieren[] = $row;
-  		}
+    while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
+        $bieren[] = $row;
+    }
     $kolomNaam = array();
-		$kolomNaam[] = "bier ";
+    $kolomNaam[] = "";
 
-		foreach ($bieren[0] as $key => $value) {
-			$kolomNaam[] = $key;
-		}
-echo $bericht = "succes";
+    foreach ($bieren[0] as $key => $value) {
+        $kolomNaam[] = $key;
+    }
+    $bericht = "succes";
 
-}catch(PDOException $ex){
-   echo $bericht= "fout door :". $ex->getMessage();
+} catch (PDOException $ex) {
+    $bericht = "fout door :" . $ex->getMessage();
 }
 
 
-
-//?>
+?>
 <!--html:5-->
 
 <!doctype html>
@@ -65,22 +57,22 @@ echo $bericht = "succes";
 <h1>CRUD query: deel 1</h1>
 <p><?php echo $bericht ?></p>
 <table>
-<thead> <tr>  <?php foreach ($kolomNaam as $key): ?>
- 					<th><?php echo $key ?></th>
- 				<?php endforeach ?>
-</tr></thead>
+    <thead>
+    <tr>  <?php foreach ($kolomNaam as $key): ?>
+            <th><?php echo $key ?></th>
+        <?php endforeach ?>
+    </tr>
+    </thead>
     <tbody>
-    			<?php foreach ($bieren as $key => $bier): ?>
-    				<tr>
-    					<td><?php echo ($key + 1) ?></td>
-    					<?php foreach ($bier as $value): ?>
-    						<td><?php echo $value ?></td>
-    					<?php endforeach ?>
-    				</tr>
-    			<?php endforeach ?>
-    		</tbody>
-
-
+    <?php foreach ($bieren as $key => $bier): ?>
+        <tr>
+            <td><?php echo($key + 1) ?></td>
+            <?php foreach ($bier as $value): ?>
+                <td><?php echo $value ?></td>
+            <?php endforeach ?>
+        </tr>
+    <?php endforeach ?>
+    </tbody>
 
 
 </table>

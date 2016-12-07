@@ -11,8 +11,7 @@ try {
     $db = new PDO('mysql:host=localhost;dbname=bieren', 'root', 'stijn'); // Connectie maken
    $bericht = "succes";
 
-    $query = "SELECT *
- FROM brouwers";
+    $query = "SELECT * FROM brouwers";
 
            $statement = $db->prepare($query);
            $statement->execute();
@@ -28,7 +27,30 @@ try {
    		foreach ($brouwers[0] as $key => $value) {
    			$kolomNaam[] = $key;
    		}
-$newQuery ="Delete * from brouwers where brouwernr= :brouwernr";
+    $kolomNaam[] = " ";
+    if ( isset( $_POST['delete'] ) )
+    		{
+                $newQuery	=	'DELETE FROM brouwers
+    									WHERE brouwernr = :brouwernr ';
+
+    			$delState = $db->prepare( $newQuery );
+
+                $delState->bindParam( ':brouwernr', $_POST['delete'] );
+
+    			$isDeleted 	=	$delState->execute();
+
+    			if ( $isDeleted )
+    			{
+                    $bericht = "Deze record is succesvol verwijderd.";
+
+    			}
+    			else
+    			{
+
+    				$bericht=	'Deze record kon niet verwijderd worden. Reden: ' . $delState->errorInfo()[2];
+    			}
+    		}
+
 
 }catch(PDOException $ex){
     $bericht= "fout door :". $ex->getMessage();
@@ -63,7 +85,7 @@ $newQuery ="Delete * from brouwers where brouwernr= :brouwernr";
    			{
    				background-color	:	transparent;
    				border				:	none;
-   				padding				:	0px;
+   				padding				:	0;
    				cursor				:	pointer;
    			}
     </style>
@@ -89,7 +111,8 @@ $newQuery ="Delete * from brouwers where brouwernr= :brouwernr";
   <tr> <?php foreach ($value as $iets): ?>
     							<td><?= $iets ?></td>
       <?php endforeach ?>
-      <td><button id="delete" name="delete"><img src="icon-delete.png" alt="delete"> </button></td>
+      <td><button id="delete"  type="submit" name="delete" value="<?php echo $value['brouwernr'] ?>">
+              <img src="icon-delete.png" alt="delete"> </button></td>
         </tr>
 <?php endforeach ?>
     </tbody>

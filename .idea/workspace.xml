@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d2ff0a4-4c01-42c3-9dfd-418ea9d8e589" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/opdracht-CRUD-update/icon-delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/opdracht-CRUD-update/icon-edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/opdracht-CRUD-order-by/deel2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/opdracht-CRUD-order-by/delete-deel1.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/opdracht-CRUD-update/update.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/opdracht-security-login/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/opdracht-CRUD-delete/index.php" afterPath="$PROJECT_DIR$/opdracht-CRUD-delete/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/opdracht-CRUD-delete/index2.php" afterPath="$PROJECT_DIR$/opdracht-CRUD-delete/index2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/opdracht-CRUD-query/deel1.php" afterPath="$PROJECT_DIR$/opdracht-CRUD-query/deel1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/opdracht-CRUD-query/deel2.php" afterPath="$PROJECT_DIR$/opdracht-CRUD-query/deel2.php" />
     </list>
     <ignored path="oplossingen.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,61 +33,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="voorbeeld-crud-query-result-pdo.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../cursus/public/cursus/voorbeelden/voorbeeld-crud-query-result-pdo-041/voorbeeld-crud-query-result-pdo.php">
+      <file leaf-file-name="delete-deel1.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/opdracht-CRUD-order-by/delete-deel1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1326">
-              <caret line="78" column="8" selection-start-line="78" selection-start-column="8" selection-end-line="82" selection-end-column="13" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1474552073674" expanded="true" signature="231:258" ph="SELECT * FRO... bieren" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="deel1.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/opdracht-CRUD-query/deel1.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-282">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding>
-                <element signature="e#6#86#0#PHP" expanded="true" />
-                <marker date="1480500596352" expanded="true" signature="221:538" ph="SELECT b.bie... bieren" />
-                <marker date="1480500596352" expanded="true" signature="221:567" ph="SELECT b.bie... bieren" />
-                <marker date="1480500596352" expanded="true" signature="221:568" ph="SELECT b.bie... bieren" />
+                <marker date="1481051273151" expanded="true" signature="206:240" ph="SELECT * FRO... brouwers" />
+                <marker date="1481051273151" expanded="true" signature="742:803" ph="DELETE FROM " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/opdracht-CRUD-delete/index.php">
+        <entry file="file://$PROJECT_DIR$/opdracht-security-login/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="91" column="44" selection-start-line="91" selection-start-column="44" selection-end-line="91" selection-end-column="44" />
-              <folding>
-                <element signature="e#6#86#0#PHP" expanded="true" />
-                <marker date="1480601947044" expanded="true" signature="239:254" ph="SELECT * FRO... brouwers" />
-                <marker date="1480601947044" expanded="true" signature="239:262" ph="SELECT * FRO... bieren" />
-                <marker date="1480601947044" expanded="true" signature="239:310" ph="SELECT * FRO... brouwers" />
-                <marker date="1480601947044" expanded="true" signature="799:818" ph="..." />
-                <marker date="1480601947044" expanded="true" signature="1427:2172" ph="..." />
-                <marker date="1480601947044" expanded="true" signature="1563:2152" ph="..." />
-                <marker date="1480601947044" expanded="true" signature="1579:1828" ph="..." />
-                <marker date="1480601947044" expanded="true" signature="1595:1809" ph="..." />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="phpoefening-025-a-oplossing.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../cursus/public/cursus/opdrachten/opdracht-CRUD-delete/oplossing-CRUD-delete/phpoefening-025-a-oplossing.php">
+      <file leaf-file-name="deel2.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/opdracht-CRUD-order-by/deel2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-573">
-              <caret line="79" column="0" selection-start-line="74" selection-start-column="12" selection-end-line="79" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1474552065351" expanded="true" signature="185:243" ph="DELETE FROM " />
-                <marker date="1474552065351" expanded="true" signature="726:757" ph="SELECT * FRO... brouwers" />
+                <marker date="1481051273459" expanded="true" signature="252:286" ph="SELECT * FRO... brouwers" />
+                <marker date="1481051273459" expanded="true" signature="886:947" ph="DELETE FROM " />
               </folding>
             </state>
           </provider>
@@ -102,11 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/opdracht-looping-for/forlus-deel2.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/voorbeeld-looping-statements-foreach-key-value.php.url" />
-        <option value="$PROJECT_DIR$/opdracht-arrays-functions/deel2.php" />
-        <option value="$PROJECT_DIR$/opdracht-arrays-functions/deel3.php" />
-        <option value="$PROJECT_DIR$/opdracht-arrays-functions/deel1.php" />
         <option value="$PROJECT_DIR$/../cursus/public/cursus/voorbeelden/voorbeeld-functions-scope/voorbeeld-functions-scope.php" />
         <option value="$PROJECT_DIR$/opdracht-conditional-ifelse/if-else.php" />
         <option value="$PROJECT_DIR$/opdracht-functies/functies.php" />
@@ -147,12 +126,17 @@
         <option value="$PROJECT_DIR$/opdracht-error-handling/form.html" />
         <option value="$PROJECT_DIR$/opdracht-error-handling/index.php" />
         <option value="$PROJECT_DIR$/../../web-backend2015/web-backend-oplossingen-master/oplossing-crud-query/oplossing-crud-query-deel1.php" />
-        <option value="$PROJECT_DIR$/opdracht-CRUD-query/deel1.php" />
-        <option value="$PROJECT_DIR$/opdracht-CRUD-query/deel2.php" />
         <option value="$PROJECT_DIR$/../../web-backend2015/web-backend-oplossingen-master/oplossing-crud-insert/oplossing-crud-insert.php" />
         <option value="$PROJECT_DIR$/opdracht-CRUD-insert/index.php" />
-        <option value="$PROJECT_DIR$/opdracht-CRUD-delete/index2.php" />
+        <option value="$PROJECT_DIR$/opdracht-crud-update/update.php" />
+        <option value="$PROJECT_DIR$/opdracht-CRUD-update/update.php" />
+        <option value="$PROJECT_DIR$/opdracht-CRUD-query/deel1.php" />
+        <option value="$PROJECT_DIR$/opdracht-CRUD-query/deel2.php" />
         <option value="$PROJECT_DIR$/opdracht-CRUD-delete/index.php" />
+        <option value="$PROJECT_DIR$/opdracht-CRUD-delete/index2.php" />
+        <option value="$PROJECT_DIR$/oplossing-CRUD-delete/oplossing-crud-delete-deel1.php" />
+        <option value="$PROJECT_DIR$/oplossing-CRUD-delete/delete-deel1.php" />
+        <option value="$PROJECT_DIR$/opdracht-CRUD-order-by/delete-deel1.php" />
       </list>
     </option>
   </component>
@@ -169,7 +153,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1319" />
+    <option name="width" value="1313" />
     <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -225,6 +209,34 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="opdracht-verbeter" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oplossingen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oplossingen" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opdracht-security-login" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oplossingen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oplossingen" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="opdracht-error-handling" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -239,35 +251,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="opdracht-CRUD-query" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oplossingen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oplossingen" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="opdracht-CRUD-insert" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oplossingen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oplossingen" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="opdracht-CRUD-delete" />
+              <option name="myItemId" value="opdracht-CRUD-order-by" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -323,8 +307,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -333,10 +317,14 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="settings.editor.splitter.proportion" value="0.251714" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../3e jaar/noordkoorts/noodkoorts/noodkoorts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../web-backend2015/web-backend-oplossingen-master" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Documents\schoolmct\2ejaar\Periode 1\web-backend\oplossingen" />
+      <recent name="C:\Users\user\Documents\schoolmct\2ejaar\Periode 1\web-backend\oplossingen\opdracht-crud-update" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\user\Documents\schoolmct\2ejaar\Periode 1\web-backend\oplossingen\opdracht-CRUD-delete" />
     </key>
@@ -412,7 +400,10 @@
       <workItem from="1479034288694" duration="1262000" />
       <workItem from="1479724506558" duration="27627000" />
       <workItem from="1480194474307" duration="20314000" />
-      <workItem from="1480442900595" duration="19379000" />
+      <workItem from="1480442900595" duration="20018000" />
+      <workItem from="1480681518940" duration="1246000" />
+      <workItem from="1480755657775" duration="62000" />
+      <workItem from="1480944420117" duration="15232000" />
     </task>
     <task id="LOCAL-00001" summary="update van gemaakte oefeningen deel 1">
       <created>1476366442971</created>
@@ -512,20 +503,28 @@
       <option name="project" value="LOCAL" />
       <updated>1480504440523</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="opdracht crud  delete">
+      <created>1480601999897</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1480601999897</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135319000" />
+    <option name="totallyTimeSpent" value="152498000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1319" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1313" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2613185" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2745411" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32718894" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -536,7 +535,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -564,7 +562,8 @@
     <MESSAGE value="opdracht classes extends en port" />
     <MESSAGE value="opdracht error handling" />
     <MESSAGE value="opdracht crud select insert delete" />
-    <option name="LAST_COMMIT_MESSAGE" value="opdracht crud select insert delete" />
+    <MESSAGE value="opdracht crud  delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="opdracht crud  delete" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -572,48 +571,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../cursus/public/cursus/opdrachten/opdracht-classes-begin/oplossing-classes-begin/application.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/opdracht-classes-begin/application.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cursus/public/cursus/voorbeelden/voorbeeld-classes-inheritance-extends-aanleiding-050/voorbeeld-classes-inheritance-extends-aanleiding-view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-330">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cursus/public/cursus/voorbeelden/voorbeeld-classes-inheritance-extends-aanleiding-050/voorbeeld-classes-inheritance-extends-aanleiding.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cursus/public/cursus/voorbeelden/voorbeeld-classes-inheritance-extends-aanleiding-050/AdventureTimeCharacter-class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cursus/public/cursus/voorbeelden/voorbeeld-classes-inheritance-extends-050/voorbeeld-classes-inheritance-extends.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/opdracht-classes-extends/application.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -716,7 +673,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -788,10 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="93" column="7" selection-start-line="93" selection-start-column="7" selection-end-line="93" selection-end-column="7" />
-          <folding>
-            <marker date="1480404857626" expanded="true" signature="1903:1922" ph="..." />
-            <marker date="1480404857626" expanded="true" signature="1970:2041" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -834,17 +786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-714">
           <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="35" selection-end-column="41" />
-          <folding>
-            <marker date="1463691112155" expanded="true" signature="142:324" ph="SELECT * FRO... bieren" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/opdracht-classes-portfolio/classes/HTMLBUILDER.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -852,9 +793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="31" selection-end-column="9" />
-          <folding>
-            <marker date="1480500284891" expanded="true" signature="125:333" ph="SELECT * FRO... bieren" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -862,20 +800,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding>
-            <marker date="1474552073690" expanded="true" signature="383:577" ph="SELECT biere... bieren" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/opdracht-CRUD-query/deel2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#86#0#PHP" expanded="true" />
-            <marker date="1480502157073" expanded="true" signature="239:364" ph="SELECT brouw... BIEREN" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -883,20 +807,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-437">
           <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
-          <folding>
-            <marker date="1480502728849" expanded="true" signature="165:295" ph="INSERT INTO brouwers... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/opdracht-CRUD-delete/index2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-          <folding>
-            <element signature="e#6#86#0#PHP" expanded="true" />
-            <marker date="1480506130909" expanded="true" signature="239:269" ph="SELECT * FRO... brouwers" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -905,7 +815,7 @@
         <state relative-caret-position="850">
           <caret line="50" column="6" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
           <folding>
-            <element signature="e#6#86#0#PHP" expanded="true" />
+            <element signature="e#6#86#0#PHP" expanded="false" />
             <marker date="1480504013155" expanded="true" signature="246:372" ph="INSERT INTO brouwers... " />
           </folding>
         </state>
@@ -925,11 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-474">
           <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#1244#1360#0#PHP" expanded="false" />
-            <marker date="1474552065472" expanded="true" signature="142:324" ph="SELECT * FRO... bieren" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -937,27 +842,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1706">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/opdracht-CRUD-query/deel1.php">
+    <entry file="file://$PROJECT_DIR$/opdracht-classes-portfolio/classes/HTMLBUILDER.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-282">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#86#0#PHP" expanded="true" />
-            <marker date="1480500596352" expanded="true" signature="221:538" ph="SELECT b.bie... bieren" />
-            <marker date="1480500596352" expanded="true" signature="221:567" ph="SELECT b.bie... bieren" />
-            <marker date="1480500596352" expanded="true" signature="221:568" ph="SELECT b.bie... bieren" />
-          </folding>
+        <state relative-caret-position="952">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../cursus/public/cursus/opdrachten/opdracht-CRUD-delete/oplossing-CRUD-delete/phpoefening-025-a-oplossing.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-573">
-          <caret line="79" column="0" selection-start-line="74" selection-start-column="12" selection-end-line="79" selection-end-column="0" />
+        <state relative-caret-position="452">
+          <caret line="33" column="0" selection-start-line="11" selection-start-column="8" selection-end-line="33" selection-end-column="0" />
           <folding>
             <marker date="1474552065351" expanded="true" signature="185:243" ph="DELETE FROM " />
             <marker date="1474552065351" expanded="true" signature="726:757" ph="SELECT * FRO... brouwers" />
@@ -965,21 +864,141 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/opdracht-CRUD-delete/index.php">
+    <entry file="file://$PROJECT_DIR$/../../web-backend2015/web-backend-oplossingen-master/oplossing-crud-update/oplossing-crud-update-deel1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="91" column="44" selection-start-line="91" selection-start-column="44" selection-end-line="91" selection-end-column="44" />
+        <state relative-caret-position="-3885">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1442574826000" expanded="true" signature="207:241" ph="SELECT * FRO... brouwers" />
+            <marker date="1442574826000" expanded="true" signature="921:982" ph="DELETE FROM " />
+            <marker date="1442574826000" expanded="true" signature="2102:2351" ph="UPDATE brouw... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../web-backend2015/web-backend-oplossingen-master/oplossing-crud-delete/oplossing-crud-delete-deel1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1389">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding>
+            <marker date="1442574826000" expanded="true" signature="206:240" ph="SELECT * FRO... brouwers" />
+            <marker date="1442574826000" expanded="true" signature="742:803" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opdracht-CRUD-update/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="161" column="16" selection-start-line="161" selection-start-column="16" selection-end-line="161" selection-end-column="26" />
+          <folding>
+            <element signature="e#6#85#0#PHP" expanded="true" />
+            <marker date="1481047330321" expanded="true" signature="258:281" ph="SELECT * FRO... brouwers" />
+            <marker date="1481047330321" expanded="true" signature="826:900" ph="DELETE FROM " />
+            <marker date="1481047330321" expanded="true" signature="2183:2366" ph="UPDATE brouw... " />
+            <marker date="1481047330321" expanded="true" signature="3450:4255" ph="..." />
+            <marker date="1481047330321" expanded="true" signature="3457:3476" ph="..." />
+            <marker date="1481047330321" expanded="true" signature="3457:4076" ph="..." />
+            <marker date="1481047330321" expanded="true" signature="3511:3625" ph="..." />
+            <marker date="1481047330321" expanded="false" signature="3723:4068" ph="..." />
+            <marker date="1481047330321" expanded="true" signature="3735:3795" ph="{...}" />
+            <marker date="1481047330321" expanded="true" signature="3802:3842" ph="{...}" />
+            <marker date="1481047330321" expanded="true" signature="3859:3903" ph="{...}" />
+            <marker date="1481047330321" expanded="true" signature="3932:4056" ph="{...}" />
+            <marker date="1481047330321" expanded="true" signature="4083:4255" ph="..." />
+            <marker date="1481047330321" expanded="true" signature="4178:4252" ph="..." />
+            <marker date="1481047330321" expanded="true" signature="4178:4255" ph="..." />
+            <marker date="1481047330321" expanded="true" signature="5202:5690" ph="..." />
+            <marker date="1481047330321" expanded="true" signature="5218:5430" ph="..." />
+            <marker date="1481047330321" expanded="true" signature="5234:5411" ph="..." />
+            <marker date="1481047330321" expanded="true" signature="5442:5690" ph="..." />
+            <marker date="1481047330321" expanded="true" signature="5497:5690" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opdracht-CRUD-query/deel2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding>
             <element signature="e#6#86#0#PHP" expanded="true" />
-            <marker date="1480601947044" expanded="true" signature="239:254" ph="SELECT * FRO... brouwers" />
-            <marker date="1480601947044" expanded="true" signature="239:262" ph="SELECT * FRO... bieren" />
-            <marker date="1480601947044" expanded="true" signature="239:310" ph="SELECT * FRO... brouwers" />
-            <marker date="1480601947044" expanded="true" signature="799:818" ph="..." />
-            <marker date="1480601947044" expanded="true" signature="1427:2172" ph="..." />
-            <marker date="1480601947044" expanded="true" signature="1563:2152" ph="..." />
-            <marker date="1480601947044" expanded="true" signature="1579:1828" ph="..." />
-            <marker date="1480601947044" expanded="true" signature="1595:1809" ph="..." />
+            <marker date="1481050003183" expanded="true" signature="261:296" ph="SELECT brouw... BIEREN" />
+            <marker date="1481050003183" expanded="true" signature="261:312" ph="SELECT brouw... brouwers" />
+            <marker date="1481050003183" expanded="true" signature="566:669" ph="SELECT biere... bieren" />
+            <marker date="1481050003183" expanded="true" signature="874:922" ph="SELECT biere... bieren" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opdracht-CRUD-query/deel1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+          <folding>
+            <element signature="e#6#86#0#PHP" expanded="true" />
+            <marker date="1481048086304" expanded="true" signature="219:356" ph="SELECT b.bie... bieren" />
+            <marker date="1481048086304" expanded="true" signature="219:385" ph="SELECT b.bie... bieren" />
+            <marker date="1481048086304" expanded="true" signature="219:386" ph="SELECT b.bie... bieren" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opdracht-CRUD-delete/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-782">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+          <folding>
+            <element signature="e#6#86#0#PHP" expanded="true" />
+            <marker date="1481050743464" expanded="true" signature="239:253" ph="SELECT * FRO... brouwers" />
+            <marker date="1481050743464" expanded="true" signature="239:261" ph="SELECT * FRO... bieren" />
+            <marker date="1481050743464" expanded="true" signature="239:309" ph="SELECT * FRO... brouwers" />
+            <marker date="1481050743464" expanded="true" signature="710:772" ph="DELETE FROM " />
+            <marker date="1481050743464" expanded="true" signature="710:773" ph="DELETE FROM " />
+            <marker date="1481050743464" expanded="true" signature="1314:1333" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opdracht-CRUD-delete/index2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="107" column="48" selection-start-line="107" selection-start-column="48" selection-end-line="107" selection-end-column="48" />
+          <folding>
+            <element signature="e#6#86#0#PHP" expanded="true" />
+            <marker date="1481051272880" expanded="true" signature="259:281" ph="SELECT * FRO... brouwers" />
+            <marker date="1481051272880" expanded="true" signature="886:960" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opdracht-CRUD-order-by/deel2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1481051273459" expanded="true" signature="252:286" ph="SELECT * FRO... brouwers" />
+            <marker date="1481051273459" expanded="true" signature="886:947" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opdracht-CRUD-order-by/delete-deel1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1481051273151" expanded="true" signature="206:240" ph="SELECT * FRO... brouwers" />
+            <marker date="1481051273151" expanded="true" signature="742:803" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opdracht-security-login/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
