@@ -6,8 +6,13 @@
  * Time: 11:38
  */
 
+if (isset($_POST["message"])) {
+		$bericht = $_POST["message"];
+	}
+	else {
+		$bericht = "";
+	}
 
-$bericht="";
 try {
     $db = new PDO('mysql:host=localhost;dbname=bieren', 'root', 'stijn'); // Connectie maken
     echo $bericht = "succes";

@@ -4,16 +4,16 @@
 	$deleteId = false;
 
 	if (isset($_GET["message"])) {
-		$message = $_GET["message"];
+		$bericht = $_GET["message"];
 	}
 	else {
-		$message = "";
+		$bericht = "";
 	}
 
 	try 
 	{
 		
-		$db = new PDO("mysql:host=localhost;dbname=bieren", "root", "root");
+		$db = new PDO("mysql:host=localhost;dbname=bieren", "root", "stijn");
 
 		$queryString = "SELECT * 
 											FROM brouwers";
@@ -39,9 +39,7 @@
 		$kolomNamen[] = "";
 
 
-		/***********************************
-		** =DELETE
-		***********************************/
+
 
 		if (isset($_POST["delete"])) {
 			$deleteConfirm = true;
@@ -60,18 +58,18 @@
 			$brouwerVerwijderd = $deleteStatement->execute();
 
 			if ($brouwerVerwijderd) {
-				$message = "De datarij werd goed verwijderd.";
+				$bericht = "De datarij werd goed verwijderd.";
 
-				header("location:opdracht-CRUD-order-by-deel2.php?message=$message");
+				header("location:opdracht-CRUD-order-by-deel2.php?message=$bericht");
 			}
 			else {
-				$message = "De datarij kon niet verwijderd worden. Probeer opnieuw.";
+				$bericht = "De datarij kon niet verwijderd worden. Probeer opnieuw.";
 			}
 		}
 	} 
 	catch (Exception $e) 
 	{
-		$message = "Er ging iets mis: " . $e->getMessage();
+		$bericht = "Er ging iets mis: " . $e->getMessage();
 	}
 
  ?>
@@ -119,14 +117,14 @@
 </head>
 <body>
 	<h1>Overzicht van brouwers</h1>
-	<p><?php echo $message ?></p>
+	<p><?php echo $bericht ?></p>
 	
 	<?php if ($deleteConfirm): ?>
 		<div class="delete-confirm">
-			<p>Bent u zeker dat u deze datarij wil verwijderen?</p>
+			<p>Bent u zeker ?</p>
 			<form action="deel2.php" method="POST">
 				<button type="submit" name="confirm" value="<?php echo $deleteId ?>">Ja!</button>
-				<button type="submit">Nee!</button>
+				<button type="submit">Neeeee!</button>
 			</form>
 		</div>
 	<?php endif ?>

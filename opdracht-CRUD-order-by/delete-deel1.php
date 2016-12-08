@@ -1,21 +1,21 @@
 <?php 
 	
 	if (isset($_GET["message"])) {
-		$message = $_GET["message"];
+		$bericht = $_GET["message"];
 	}
 	else {
-		$message = "";
+		$bericht = "";
 	}
 
 	try 
 	{
 		
-		$db = new PDO("mysql:host=localhost;dbname=bieren", "root", "root");
+		$db = new PDO("mysql:host=localhost;dbname=bieren", "root", "stijn");
 
-		$queryString = "SELECT * 
+		$query = "SELECT * 
 											FROM brouwers";
 
-		$statement = $db->prepare($queryString);
+		$statement = $db->prepare($query);
 
 		$statement->execute();
 
@@ -24,7 +24,6 @@
 		while ($row = $statement->fetch( PDO::FETCH_ASSOC )) {
 			$brouwers[] = $row;
 		}
-		//var_dump($bieren);
 
 		$kolomNamen = array();
 		$kolomNamen[] = "#";
@@ -36,34 +35,30 @@
 		$kolomNamen[] = "";
 
 
-		/***********************************
-		** =DELETE
-		***********************************/
-
 		if (isset($_POST["delete"])) {
 			
-			$deleteQuery = "DELETE FROM brouwers
+			$delQuery = "DELETE FROM brouwers
 												WHERE brouwernr = :brouwernr";
 
-			$deleteStatement = $db->prepare($deleteQuery);
+			$deleteStatement = $db->prepare($delQuery);
 
 			$deleteStatement->bindParam(":brouwernr", $_POST["delete"]);
 
-			$brouwerVerwijderd = $deleteStatement->execute();
+			$brouwerDel = $deleteStatement->execute();
 
-			if ($brouwerVerwijderd) {
-				$message = "De datarij werd goed verwijderd.";
+			if ($brouwerDel) {
+				$bericht = "De datarij werd goed verwijderd.";
 
-				header("location:opdracht-CRUD-order-by-deel2.php?message=$message");
+				header("location:opdracht-CRUD-order-by-deel2.php?message=$bericht");
 			}
 			else {
-				$message = "De datarij kon niet verwijderd worden. Probeer opnieuw.";
+				$bericht = "De datarij kon niet verwijderd worden. Probeer opnieuw.";
 			}
 		}
 	} 
 	catch (Exception $e) 
 	{
-		$message = "Er ging iets mis: " . $e->getMessage();
+		$bericht = "Er ging iets mis: " . $e->getMessage();
 	}
 
  ?>
@@ -98,7 +93,7 @@
 </head>
 <body>
 	<h1>Overzicht van brouwers</h1>
-	<p><?php echo $message ?></p>
+	<p><?php echo $bericht ?></p>
 
 	<form action="delete-deel1.php" method="POST">
 		<table>
@@ -112,7 +107,7 @@
 
 	 		<tbody>
 	 			<?php foreach ($brouwers as $key => $brouwer): ?>
-	 				<tr>		<!-- class="... ($key + 1) % 2 == 0 ? 'even' : '' ?>" -->
+	 				<tr>
 	 					<td><?php echo ($key + 1) ?></td>
 	 					<?php foreach ($brouwer as $value): ?>
 	 						<td><?php echo $value ?></td>
