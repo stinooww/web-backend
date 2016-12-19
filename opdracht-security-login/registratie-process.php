@@ -6,9 +6,13 @@
  * Time: 09:35
  */
 
+
+
 session_start();
-
-
+function __autoload( $classname )
+{
+    require_once( $classname . '.php' );
+}
 
     if(isset($_POST['genereer'])){
      $ww =  $_POST['pwd'];
@@ -16,7 +20,7 @@ $generatePassw =  generatePassword(10,true,true,true);
         $_SESSION['registratie']['e-mail'] = $_POST['e-mail'];
         		$_SESSION['registratie']['paswoord'] = $generatePassw;
 
-        		header('location: registratie.php');
+        		header('location: registratie-form.php');
 
     }
 function generatePassword(	$lengte,	$hoofdletters = true,
@@ -76,6 +80,47 @@ function generatePassword(	$lengte,	$hoofdletters = true,
 //generatePassword(20, true, true, true);
 
 
+/* Registreer */
+if ( isset($_POST['registreer']) ) {
+$email = $_POST['e-mail'];
+$password = $_POST['paswoord'];
+$isEmail = filter_var($email, FILTER_VALIDATE_EMAIL);	/* checken of het wel een e-mail adres is */
+if ( !$isEmail ) {
+    new Notification( 'error', 'Het ingegeven e-mail adres is niet geldig. Vul een geldig e-mail adres in.' );
+    header('location: registratie-form.php');
+}
+elseif ( $password == '') {
+    $_SESSION['registratie']['e-mail'] = $_POST['e-mail'];
+    $_SESSION['registratie']['paswoord'] = '';
+    new Notification( 'error', 'Het ingegeven paswoord is niet geldig. Vul een geldig paswoord in.' );
+    header('location: registratie-form.php');
+}
+else {
+    $connection = new PDO('mysql:host=localhost;dbname=phpoefening029', 'root', 'stijn');
+    $db = new Database( $connection );
+    $queryString = 'SELECT * 
+												FROM users
+												WHERE email = :email';
+    $parameters = array( ':email' => $email );
+    $userData = $db->query( $queryString, $parameters );
+    /* Als er iets in de array $userData[ 'data' ] zit betekent dit dat het email adres al in de databank zit */
+    if ( isset( $userData[ 'data' ][ 0 ] ) ) {
+        new Notification( 'error', 'Het ingegeven e-mail adres (' . $email . ') is reeds in gebruik.' );
+        header('location: registratie-form.php');
+    }
+    else {
+        User::createNewUser( $connection, $email, $password);
+
+        new Notification( 'succes', 'Uw registratie is gelukt. Welkom.' );
+        /* SESSION unsetten zodat er geen ingegeven paswoord en email komt wanneer je terug op registratie pagina komt */
+        unset( $_SESSION[ 'registratie'] );
+        header('location: dashboard.php');
+    }
+}
+}
+else {
+    header('location: login-form.php');
+}
 
 
 ?>
