@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3d2ff0a4-4c01-42c3-9dfd-418ea9d8e589" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/opdracht-mail/contact-form.php" afterPath="$PROJECT_DIR$/opdracht-mail/contact-form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/opdracht-security-login/dashboard.php" afterPath="$PROJECT_DIR$/opdracht-security-login/dashboard.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/opdracht-security-login/login-form.php" afterPath="$PROJECT_DIR$/opdracht-security-login/login-form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/opdracht-security-login/login-process.php" afterPath="$PROJECT_DIR$/opdracht-security-login/login-process.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/opdracht-security-login/registratie-form.php" afterPath="$PROJECT_DIR$/opdracht-security-login/registratie-form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/opdracht-security-login/registratie-process.php" afterPath="$PROJECT_DIR$/opdracht-security-login/registratie-process.php" />
     </list>
     <ignored path="oplossingen.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -385,7 +379,7 @@
       <workItem from="1480755657775" duration="62000" />
       <workItem from="1480944420117" duration="22921000" />
       <workItem from="1482146513126" duration="8295000" />
-      <workItem from="1482241423352" duration="6570000" />
+      <workItem from="1482241423352" duration="6584000" />
     </task>
     <task id="LOCAL-00001" summary="update van gemaakte oefeningen deel 1">
       <created>1476366442971</created>
@@ -506,11 +500,18 @@
       <option name="project" value="LOCAL" />
       <updated>1482159202967</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="opdracht security">
+      <created>1482413415559</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1482413415559</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175052000" />
+    <option name="totallyTimeSpent" value="175066000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
