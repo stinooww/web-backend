@@ -13,7 +13,7 @@ function __autoload( $classname )
     require_once( $classname . '.php' );
 }
 $notification = null;
-$connection = new PDO('mysql:host=localhost;dbname=phpoefening029', 'root', 'stijn');
+$connection = new PDO('mysql:host=localhost;dbname=phpoefening029', 'root', '');
 if ( User::validate( $connection )) {
     $notification = Notification::getNotification();
 }

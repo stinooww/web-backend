@@ -96,7 +96,7 @@ elseif ( $password == '') {
     header('location: registratie-form.php');
 }
 else {
-    $connection = new PDO('mysql:host=localhost;dbname=phpoefening029', 'root', 'stijn');
+    $connection = new PDO('mysql:host=localhost;dbname=phpoefening029', 'root', '');
     $db = new Database( $connection );
     $queryString = 'SELECT * 
 												FROM users

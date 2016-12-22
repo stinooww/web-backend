@@ -18,7 +18,7 @@
 	$paswoord = null;
 
 
-	$connection = new PDO('mysql:host=localhost;dbname=phpoefening029', 'root', 'stijn');
+	$connection = new PDO('mysql:host=localhost;dbname=phpoefening029', 'root', '');
 	if ( User::validate( $connection ) ) {
         header('location: dashboard.php');
     }
@@ -29,7 +29,7 @@
         }
         $notification = Notification::getNotification();
     }
-	// var_dump($_SESSION);
+	var_dump($_SESSION);
  ?>
 
 <!DOCTYPE html>

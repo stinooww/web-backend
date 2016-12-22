@@ -16,7 +16,7 @@ function __autoload( $classname )
 
 $notification = "";
 
-$connection = new PDO('mysql:host=localhost;dbname=phpoefening029', 'root', 'stijn');
+$connection = new PDO('mysql:host=localhost;dbname=phpoefening029', 'root', '');
 
 if ( User::validate( $connection ) ) {
     header('location: dashboard.php');

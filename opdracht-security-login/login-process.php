@@ -17,7 +17,7 @@ if ( isset($_SESSION['notification'])) {
 if ( isset($_POST['inloggen']) ) {
     $email = $_POST['e-mail'];
     $password = $_POST['paswoord'];
-    $connection = new PDO('mysql:host=localhost;dbname=phpoefening029', 'root', 'stijn');
+    $connection = new PDO('mysql:host=localhost;dbname=phpoefening029', 'root', '');
     $db = new Database( $connection );
     $queryString = 'SELECT * 
 											FROM users
