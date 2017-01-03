@@ -2,89 +2,88 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d2ff0a4-4c01-42c3-9dfd-418ea9d8e589" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/public/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/.env.example" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/.gitattributes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/app/Console/Kernel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/app/Exceptions/Handler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/app/Http/Controllers/Auth/ForgotPasswordController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/app/Http/Controllers/Auth/LoginController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/app/Http/Controllers/Auth/RegisterController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/app/Http/Controllers/Auth/ResetPasswordController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/app/Http/Controllers/Controller.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/app/Http/Kernel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/app/Http/Middleware/EncryptCookies.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/app/Http/Middleware/RedirectIfAuthenticated.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/app/Http/Middleware/VerifyCsrfToken.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/app/Providers/AppServiceProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/app/Providers/AuthServiceProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/app/Providers/BroadcastServiceProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/app/Providers/EventServiceProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/app/Providers/RouteServiceProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/app/User.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/artisan" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/bootstrap/app.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/bootstrap/autoload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/bootstrap/cache/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/composer.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/config/app.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/config/auth.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/config/broadcasting.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/config/cache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/config/compile.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/config/database.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/config/filesystems.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/config/mail.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/config/queue.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/config/services.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/config/session.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/config/view.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/database/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/database/factories/ModelFactory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/database/migrations/2014_10_12_000000_create_users_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/database/migrations/2014_10_12_100000_create_password_resets_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/database/seeds/DatabaseSeeder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/phpunit.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/public/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/public/css/app.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/public/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/public/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/public/robots.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/public/web.config" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/resources/assets/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/resources/assets/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/resources/assets/js/components/Example.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/resources/assets/sass/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/resources/assets/sass/app.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/resources/lang/en/auth.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/resources/lang/en/pagination.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/resources/lang/en/passwords.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/resources/lang/en/validation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/resources/views/errors/503.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/resources/views/vendor/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/resources/views/welcome.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/routes/api.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/routes/console.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/routes/web.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/server.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/storage/app/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/storage/app/public/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/storage/framework/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/storage/framework/cache/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/storage/framework/sessions/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/storage/framework/views/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/storage/logs/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/tests/ExampleTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/tests/TestCase.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examenBackend/yarn.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/opdracht-mail/contact.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/public/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/.env.example" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/app/Console/Kernel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/app/Exceptions/Handler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/app/Http/Controllers/Auth/ForgotPasswordController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/app/Http/Controllers/Auth/LoginController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/app/Http/Controllers/Auth/RegisterController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/app/Http/Controllers/Auth/ResetPasswordController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/app/Http/Controllers/Controller.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/app/Http/Kernel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/app/Http/Middleware/EncryptCookies.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/app/Http/Middleware/RedirectIfAuthenticated.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/app/Http/Middleware/VerifyCsrfToken.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/app/Providers/AppServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/app/Providers/AuthServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/app/Providers/BroadcastServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/app/Providers/EventServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/app/Providers/RouteServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/app/User.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/artisan" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/bootstrap/app.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/bootstrap/autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/bootstrap/cache/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/composer.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/config/app.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/config/auth.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/config/broadcasting.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/config/cache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/config/compile.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/config/database.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/config/filesystems.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/config/mail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/config/queue.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/config/services.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/config/session.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/config/view.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/database/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/database/factories/ModelFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/database/migrations/2014_10_12_000000_create_users_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/database/migrations/2014_10_12_100000_create_password_resets_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/database/seeds/DatabaseSeeder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/phpunit.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/public/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/public/css/app.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/public/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/public/js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/public/robots.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/public/web.config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/resources/assets/js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/resources/assets/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/resources/assets/js/components/Example.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/resources/assets/sass/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/resources/assets/sass/app.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/resources/lang/en/auth.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/resources/lang/en/pagination.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/resources/lang/en/passwords.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/resources/lang/en/validation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/resources/views/errors/503.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/resources/views/vendor/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/resources/views/welcome.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/routes/api.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/routes/console.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/routes/web.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/server.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/storage/app/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/storage/app/public/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/storage/framework/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/storage/framework/cache/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/storage/framework/sessions/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/storage/framework/views/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/storage/logs/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/tests/ExampleTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/tests/TestCase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravelTutorial/yarn.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/opdracht-mail/contact-form.php" afterPath="$PROJECT_DIR$/opdracht-mail/contact-form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examenBackend/resources/views/welcome.blade.php" afterPath="$PROJECT_DIR$/examenBackend/resources/views/welcome.blade.php" />
     </list>
     <ignored path="oplossingen.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -104,7 +103,40 @@
     <favorites_list name="oplossingen" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/laravelTutorial/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#7#389#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="autoload.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravelTutorial/bootstrap/autoload.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="autoload.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examenBackend/bootstrap/autoload.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -121,7 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/opdracht-session/adres.php" />
         <option value="$PROJECT_DIR$/opdracht-get/opdracht-get.php" />
         <option value="$PROJECT_DIR$/opdracht-date/index.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/voorbeeld-include-require-cross-language.php.url" />
@@ -172,6 +203,7 @@
         <option value="$PROJECT_DIR$/opdracht-security-login/registratie-form.php" />
         <option value="$PROJECT_DIR$/opdracht-mail/contact.php" />
         <option value="$PROJECT_DIR$/opdracht-mail/contact-form.php" />
+        <option value="$PROJECT_DIR$/examenBackend/resources/views/welcome.blade.php" />
       </list>
     </option>
   </component>
@@ -232,7 +264,79 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="examenBackend" />
+              <option name="myItemId" value="laravelTutorial" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oplossing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oplossing" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravelTutorial" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oplossing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oplossing" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravelTutorial" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oplossing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oplossing" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravelTutorial" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oplossing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oplossing" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravelTutorial" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -350,7 +454,7 @@
       <workItem from="1482146513126" duration="8295000" />
       <workItem from="1482241423352" duration="8002000" />
       <workItem from="1482481588100" duration="554000" />
-      <workItem from="1483449513967" duration="28000" />
+      <workItem from="1483449513967" duration="4074000" />
     </task>
     <task id="LOCAL-00001" summary="update van gemaakte oefeningen deel 1">
       <created>1476366442971</created>
@@ -485,11 +589,25 @@
       <option name="project" value="LOCAL" />
       <updated>1482413428241</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="start examen backend opdracht laravel">
+      <created>1483449577916</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1483449577916</updated>
+    </task>
+    <task id="LOCAL-00021" summary="start examen backend opdracht laravel">
+      <created>1483450155635</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1483450155635</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177066000" />
+    <option name="totallyTimeSpent" value="181112000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -544,7 +662,8 @@
     <MESSAGE value="opdracht crud  query order by en start security" />
     <MESSAGE value="opdracht security" />
     <MESSAGE value="opdracht security login + mail" />
-    <option name="LAST_COMMIT_MESSAGE" value="opdracht security login + mail" />
+    <MESSAGE value="start examen backend opdracht laravel" />
+    <option name="LAST_COMMIT_MESSAGE" value="start examen backend opdracht laravel" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -554,24 +673,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../cursus/public/cursus/voorbeelden/voorbeeld-classes-inheritance-self-051/Employee-class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cursus/public/cursus/voorbeelden/voorbeeld-classes-inheritance-self-051/Person-class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../web-backend2015/cursus/public/cursus/opdrachten/opdracht-classes-portfolio/oplossing-classes-portfolio/classes/HTMLbuilder-class.php" />
-    <entry file="file://$PROJECT_DIR$/../../web-backend2015/cursus/public/cursus/opdrachten/opdracht-classes-portfolio/oplossing-classes-portfolio/index.php" />
-    <entry file="file://$PROJECT_DIR$/opdracht-error-handling/log" />
-    <entry file="file://$PROJECT_DIR$/../../web-backend2015/cursus/public/cursus/opdrachten/opdracht-error-handling/opdracht-error-handling.php" />
     <entry file="file://$PROJECT_DIR$/opdracht-error-handling/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -779,6 +880,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -869,6 +971,56 @@
           <folding>
             <marker date="1482154388738" expanded="true" signature="357:482" ph="INSERT INTO users... " />
             <marker date="1482154388738" expanded="true" signature="1594:1662" ph="SELECT * FRO... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examenBackend/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examenBackend/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="679">
+          <caret line="84" column="36" lean-forward="false" selection-start-line="84" selection-start-column="36" selection-end-line="84" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examenBackend/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examenBackend/bootstrap/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravelTutorial/bootstrap/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravelTutorial/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#389#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
