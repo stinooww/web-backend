@@ -7,7 +7,7 @@
  */
 
 
-//require_once 'phpmailer/PHPMailerAutoload.php';
+//
 if(isset($_POST['verzendButton'])) {
 
 
@@ -20,27 +20,6 @@ if(isset($_POST['verzendButton'])) {
             exit;
         }
 
-        //create an instance of PHPMailer
-        $mail = new PHPMailer();
-
-        $mail->From = $_POST['inputEmail'];
-        $mail->FromName = $_POST['inputName'];
-        $mail->AddAddress('something@test.com'); //recipient
-        $mail->Subject = $_POST['inputSubject'];
-        $mail->Body = "Name: " . $_POST['inputName'] . "\r\n\r\nMessage: " . stripslashes($_POST['inputMessage']);
-
-        if (isset($_POST['ref'])) {
-            $mail->Body .= "\r\n\r\nRef: " . $_POST['ref'];
-        }
-
-        if (!$mail->send()) {
-            $data = array('success' => false, 'message' => 'Het bericht kon niet worden verstuurd. Mail Error: ' . $mail->ErrorInfo);
-            echo json_encode($data);
-            exit;
-        }
-
-        $data = array('success' => true, 'message' => 'Hartelijk bedankt! We sturen u zo spoedig mogelijk terug.');
-        echo json_encode($data);
 
     } else {
 
@@ -62,7 +41,7 @@ if(isset($_POST['verzendButton'])) {
 </head>
 <body>
 
-<form action="contact-form.php" role="form" method="post">
+<form action="contact.php" role="form" method="post">
     <input type="text" name="inputName">
     <input type="text" name="inputEmail" value="Geef uw email adres">
 
