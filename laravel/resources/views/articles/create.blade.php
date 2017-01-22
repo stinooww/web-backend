@@ -1,15 +1,15 @@
-@extends('app');
+@extends('app')
 
 @section('content')
 
 <h1>Write a new article</h1>
 
-{!!  Form::open() !!}
+{!!  Form::open(['url'=>'articles']) !!}
 
-<div class="form-group">
-    {!! ! Form::label('name','Name:') !!}
 
-    {!! ! Form::text('name',null,['class'=>'form-control']) !!}
-</div>
+
+@include('articles.form',['SubmitBtnText'=>'Add Article'])
 {!!  Form::close() !!}
+
+@include('errors.list')
 @stop

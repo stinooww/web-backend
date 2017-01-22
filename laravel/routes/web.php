@@ -20,8 +20,10 @@
 Route::get('/','HomeController@index');
 Route::get('contact','HomeController@contact');
 
-Route::get('articles','ArticlesController@index');
-Route::get('articles/create','ArticlesController@create');
-Route::get('articles/{id}','ArticlesController@show');
-
-
+//Route::get('articles','ArticlesController@index');
+//Route::get('articles/create','ArticlesController@create');
+//Route::get('articles/{id}','ArticlesController@show');
+//
+//Route::post('articles','ArticlesController@store');
+Route::resource('articles','ArticlesController');
+//Route::get('articles/{id}/edit','ArticlesController@edit');
