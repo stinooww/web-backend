@@ -22,4 +22,9 @@ public function scopePublished($query){
 public function setPublishedAtAttribute($date){
     $this->attributes['published_at']= Carbon::parse($date);
 }
+
+//een artikel  is van een gebruiker
+public function user(){
+    return $this->belongsTo('App\User');
+}
 }
