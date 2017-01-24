@@ -1,22 +1,25 @@
-@extends('app')
 
+@extends('layouts.app')
 @section('content')
 
 
-    @if(count($articles))
-    <h1>    Articles</h1>
+    @if(count($article))
+  <div class="panel-heading">
+      Articles overview
 
+  </div>
+<div class="panel-content">
     <ul>
-        @foreach($articles as $article)
+        @foreach($article as $articles)
              <article>
                     <h2>
-                        <a href="{{action('ArticlesController@show',[$article->id])}}">{{$article->title}}</a>
+                        <a href="{{action('ArticlesController@show',[$articles->id])}}">{{$articles->title}}</a>
 
                         {{--<a href="{{url('articles',$article->id)}}"></a>--}}
                     </h2>
 
                          <div class="body">
-                             {{$article->body}}
+                             {{$articles->body}}
 
 
                           </div>
@@ -25,6 +28,7 @@
         @endforeach
     </ul>
 
+</div>
     @endif
 
     @stop

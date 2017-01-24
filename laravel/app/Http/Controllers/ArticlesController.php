@@ -13,16 +13,16 @@ class ArticlesController extends Controller
 {
     //gebruikers omleiden die niet zijn ingelogd
     public function __construct()
-    {
-        $this->middleware('auth',['except'=>'index']);
-    }
+{
+    $this->middleware('auth',['except'=>'index','show']);
+}
 
     //
     public function index()
     {
         //geeft all article die order by zijn in desc
-        $articles = Article::latest('published_at')->published()->get();
-        return view('articles.index', compact('articles'));
+        $article = Article::latest('published_at')->published()->get();
+        return view('articles.index', compact('article'));
     }
 
 //    function show is dus om een specifiek item te tonen, we zien ook wat je meot doen als die niet bestaat
@@ -35,8 +35,6 @@ class ArticlesController extends Controller
 //        if(is_null($article)){
 //         abort(404);
 //        }
-
-
         return view('articles.show', compact('article'));
     }
 
@@ -49,12 +47,17 @@ class ArticlesController extends Controller
     //hoe krijgen wij toegang tot wa da de gebruiker intypt + validatie
 
     public function store(ArticleRequest $request){
-        $article = new Article($request->all()); //user_id
+//        $article = new Article($request->all()); //user_id
+        Auth::user()->articles()->create($request->all());
+        flash()->success('Your article has ben created');
 
-        Auth::user()->articles()->save($article);
 //       Article::create($request->all());
        return redirect('articles');
     }
+
+
+
+
 
     public function edit($id){
         $article = Article::findOrFail($id);

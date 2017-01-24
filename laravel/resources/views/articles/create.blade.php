@@ -1,8 +1,9 @@
-@extends('app')
+@extends('layouts.app')
 
 @section('content')
 
-<h1>Write a new article</h1>
+<h1>Add article</h1>
+
 
 {!!  Form::open(['url'=>'articles']) !!}
 

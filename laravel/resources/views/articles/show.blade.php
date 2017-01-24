@@ -1,13 +1,23 @@
-@extends('app')
+@extends('layouts.app')
 
 @section('content')
+    <div class="breadcrumb">
 
+        <a href="{{ url('/articles') }}">← back to overview</a>
 
-    <h1>{{$article->title}}</h1>
+    </div>
+    <div class="panel-heading">
+        Articles:   {{$article->title}}
+    </div>
 
-    <article>
+    <div class="panel-content">
 
     {{$article ->body}}
-    </article>
+
+        @if (Auth::guest())
+            <li>You need to be <a href="{{ url('/login') }}">logged in</a> to comment</li>
+
+        @else
+    </div>
 
 @stop
