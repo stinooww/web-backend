@@ -14,7 +14,8 @@ protected $fillable=[
     'body',
     'published_at'
 ];
-
+// protected makes this work $article->published_at->addDays(2)->diffForHumans());
+    protected $dates = ['published_at'];
 public function scopePublished($query){
     $query->where('published_at','<=',Carbon::now());
 }

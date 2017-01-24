@@ -27,3 +27,10 @@ Route::get('contact','HomeController@contact');
 //Route::post('articles','ArticlesController@store');
 Route::resource('articles','ArticlesController');
 //Route::get('articles/{id}/edit','ArticlesController@edit');
+//Route::controllers([
+//    'auth'=> 'Auth\AuthController',
+//    'password' => 'Auth\PasswordController',
+//]);
+Auth::routes();
+
+//Route::get('/home', 'HomeController@index');

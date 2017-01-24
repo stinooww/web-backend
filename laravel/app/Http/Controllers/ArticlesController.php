@@ -6,14 +6,17 @@ namespace App\Http\Controllers;
 use App\Http\Requests\ArticleRequest;
 use Carbon\Carbon;
 use App\Article;
-
-
-
-
+use Illuminate\Support\Facades\Auth;
 
 
 class ArticlesController extends Controller
 {
+    //gebruikers omleiden die niet zijn ingelogd
+    public function __construct()
+    {
+        $this->middleware('auth',['except'=>'index']);
+    }
+
     //
     public function index()
     {
@@ -46,7 +49,10 @@ class ArticlesController extends Controller
     //hoe krijgen wij toegang tot wa da de gebruiker intypt + validatie
 
     public function store(ArticleRequest $request){
-       Article::create($request->all());
+        $article = new Article($request->all()); //user_id
+
+        Auth::user()->articles()->save($article);
+//       Article::create($request->all());
        return redirect('articles');
     }
 

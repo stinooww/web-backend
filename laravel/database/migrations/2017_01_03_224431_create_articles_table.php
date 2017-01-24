@@ -19,7 +19,7 @@ class CreateArticlesTable extends Migration
             $table->string('title');
             $table->text('body');
             $table->timestamps();
-//           $table->timestamp('published_at');
+            $table->timestamp('published_at')->default(DB::raw('CURRENT_TIMESTAMP'));
 
            $table->foreign('user_id')
                ->references('id')
