@@ -26,7 +26,7 @@ class ArticleRequest extends FormRequest
         return [
             //
             'title'=>'required|max:255',
-            'url'=>'required',
+            'url'=>'required|url',
         ];
     }
 }

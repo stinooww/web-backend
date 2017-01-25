@@ -7,6 +7,7 @@ use App\Article;
 use App\Comments;
 use App\Http\Requests\ArticleRequest;
 use Illuminate\Support\Facades\Auth;
+use PhpParser\Comment;
 
 class ArticleController extends Controller
 {
@@ -16,17 +17,20 @@ class ArticleController extends Controller
         $this->middleware('auth',['except'=>'index','show']);
     }
     // //geeft all artikels in order by  desc
-    public function index()
+    public function index(Request $request)
     {
-        $article = Article::latest('published_at')->published()->get();
-        return view('articles.index', compact('article'));
+        $article = Article::all()->sortByDesc("votes");
+        $user =  User::al();
+        $comment =  Comments::all();
+        $user->name = $request->name;
+        return view('index')->withArticles($article)->withComments($comment);
     }
     // function show is dus om een specifiek item te tonen
-    public function show($id)
-    {
-        $article = Article::findOrFail($id);
-        return view('articles.show', compact('article'));
-    }
+//    public function show($id)
+//    {
+//        $article = Article::findOrFail($id);
+//        return view('articles.show', compact('article'));
+//    }
     //aanmaken /creeren van
     public function create()
     {
@@ -45,15 +49,5 @@ class ArticleController extends Controller
 //        return redirect('articles');
 
     }
-    //edit van artikel
-    public function edit($id){
-        $article = Article::findOrFail($id);
-        return view('articles.edit',compact('article'));
-    }
-    //updaten
-    public function update($id, ArticleRequest $request){
-        $article = Article::findOrFail($id);
-        $article->update($request->all());
-        return redirect('articles');
-    }
+
 }
