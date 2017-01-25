@@ -4,22 +4,23 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Comments extends Model
+class Article extends Model
 {
 
     //we zijn expliciet in welke items kunnen worde veranderend of aangemaakt
     protected $fillable=[
-        'body','user_id','article_id'
+        'title',
+        'url'
+
     ];
 
-
-    //een comment  is van een gebruiker
+    //een artikel  is van een gebruiker
     public function user()
     {
         return $this->belongsTo('App\User');
     }
-    public function artikel()
+    public function comments()
     {
-        return $this->belongsTo('App\Article');
+        return $this->hasMany('App\Comments');
     }
 }
