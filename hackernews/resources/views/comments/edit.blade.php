@@ -11,7 +11,7 @@
 
     {{--{!!  Form::close() !!}--}}
     <a href="/comments/{{$comment->id}}">back to overview</a>
-    <a href="{{ url('/comments/delete', $comment->id) }}" class="btn btn-danger btn-xs pull-right">
+    <a href="/comments/{{$comment->id}}/delete" class="btn btn-danger btn-xs pull-right">
         <i class="fa fa-btn fa-trash" title="delete"></i> delete comment
     </a>
 

@@ -130,27 +130,28 @@ class ArticleController extends Controller
 
 
 
-        public function upvote(article $article, Request $request)
+        public function up(Article $article,$id)
         {
             try {
+                $article = Article::findOrFail($id);
                 $article->increment('votes');
-                \Session::flash('flash_message', 'successfully upvoted ' . $article->title . '.');
-                $request->session()->flash('flash_message', 'Task was successful!');
-                return back();
+                session()->flash('flash_message', 'successfully upvoted ' . $article->title . '.');
+//                $request->session()->flash('flash_message', 'Task was successful!');
+                return redirect()->back();
             } catch (\Exception $e) {
-                \Session::flash('flash_error', 'Something went wrong while upvoting your article, try again.');
-                return back();
+                session()->flash('flash_error', 'Something went wrong while upvoting your article, try again.'.$e);
+                return  redirect()->back();
             }
         }
 
-        public  function downvote(article $article)
+        public  function down(article $article)
         {
             try {
                 $article->decrement('votes');
-                \Session::flash('flash_message', 'successfully downvoted ' . $article->title . '.');
+                session()->flash('flash_message', 'successfully downvoted ' . $article->title . '.');
                 return back();
             } catch (\Exception $e) {
-                \Session::flash('flash_error', 'Something went wrong while downvoting your article, try again.');
+                session()->flash('flash_error', 'Something went wrong while downvoting your article, try again.'.$e);
                 return back();
             }
         }

@@ -14,7 +14,7 @@
             <a href="/" class="btn btn-xs pull-right">
                 <i class="fa fa-btn fa-trash" title="cancel"></i> cancel
             </a>
-            <a href="{{$comment->id}}/delete" class="btn btn-danger btn-xs pull-right">
+            <a href="/comments/{{$comment->id}}/delete" class="btn btn-danger btn-xs pull-right">
                 <i class="fa fa-btn fa-trash" title="delete"></i> delete comment
             </a>
 

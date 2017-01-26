@@ -34,10 +34,11 @@
                         <a href="/comments/{{$comment->id}}/edit"> <button type="submit" class="btn btn-primary btn-xs"> edit</button></a>
                         {{--<a href="{{ url('comments/edit', $comment->id) }}"--}}
                            {{--class="btn btn-primary btn-xs edit-btn">edit</a>--}}
-                        <a href="{{ url('comments/delete', $comment->id) }}"
-                           class="btn btn-danger btn-xs edit-btn">
-                            <i class="fa fa-btn fa-trash" title="delete"></i> delete
-                        </a>
+                        <a href="/comments/{{$comment->id}}/delete"> <button type="submit" class="btn btn-danger btn-xs"> delete</button></a>
+                        {{--<a href="{{ url('comments/delete', $comment->id) }}"--}}
+                           {{--class="btn btn-danger btn-xs edit-btn">--}}
+                            {{--<i class="fa fa-btn fa-trash" title="delete"></i> delete--}}
+                        {{--</a>--}}
                     @endif
                 </div>
             </li>

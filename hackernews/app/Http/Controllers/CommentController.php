@@ -34,7 +34,7 @@ class CommentController extends Controller
 //        return back();
 //    }
 
-    public function store(Article $article,CommentRequest $request)
+    public function store(CommentRequest $request)
     {
         try{
             Auth::user()->comments()->create($request->all());
@@ -56,16 +56,18 @@ class CommentController extends Controller
 
     }
 
-    public function deletecomment(Comments $comment,article $article)
+    public function delete(Comments $comment,article $article)
     {
         $articleid=$comment->article_id;
         session()->flash('flash_delete','Are you sure you want to delete this comment.');
         return view('comments.show', compact('comment','article'));
     }
-    public function cancelcom(Comments $comment){
-        $articleid = $comment->article_id;
-        return redirect('comments/'.$articleid);
+    public function cancelcomment(Comments $comment){
+        $id = $comment->article_id;
+        return redirect('comments/'.$id);
     }
+
+
     public function deletecommentconfirm(Comments $comment)
     {
         try{
