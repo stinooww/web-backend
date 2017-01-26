@@ -3,7 +3,7 @@
 @section('content')
     <div class="breadcrumb">
 
-        <a href="{{ url('/articles') }}">    <span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span> back to overview</a>
+        <a href="{{ url('/articles') }}">← back to overview</a>
 
     </div>
     <div class="panel-heading">

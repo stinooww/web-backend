@@ -9,17 +9,17 @@ class Comments extends Model
 
     //we zijn expliciet in welke items kunnen worde veranderend of aangemaakt
     protected $fillable=[
-        'body','user_id','article_id'
+        'body'
     ];
 
 
     //een comment  is van een gebruiker
     public function user()
     {
-        return $this->belongsTo('App\User');
+        return $this->belongsTo(User::class,'article_id','id');
     }
-    public function artikel()
+    public function article()
     {
-        return $this->belongsTo('App\Article');
+        return $this->belongsTo(Article::class,'article_id','id');
     }
 }

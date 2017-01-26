@@ -7,84 +7,97 @@ use App\Comments;
 use App\User;
 use App\Article;
 use App\Http\Requests\CommentRequest;
+use App\Http\Requests\ArticleRequest;
 use Illuminate\Support\Facades\Auth;
 use Carbon\Carbon;
 
 class CommentController extends Controller
 {
-    //
     public function __construct()
     {
-        $this->middleware('auth',['except'=>'index']);
+        $this->middleware('auth', ['except'=>['index']]);
     }
-
-
-
-
-
-
+    /**
+     * @return string
+     */
     public function show($id){
-        $post = Post::findOrFail($id);
-        $post['username'] = $post->user->name;
-        if(Comment::find($post['id'])){
-            $post['commentcount'] = $post->comments->count();
-        }
-        else{$post['commentcount'] = 0;}
-        $comments = $post->comments()->get();
-        foreach ($comments as $comment){
-            $comment['username'] = $comment->user()->get();
-            $comment['username'] = $comment['username'][0]['name'];
-        }
+        $article = Article::findOrFail($id);
+        $comments = $article->comments;
+//        return view('comments.show', compact('comment'));
+        return view('comments.show', compact('article','comments'));
+    }
 
-        return view('hackerpages.show', compact('post', 'comments'));
-    }
-    public function editView($id){
-        $post = Post::findOrFail($id);
-        return view('hackerpages.edit', compact('post'));
-    }
-    public function edit($id, \App\Http\Requests\CreatePostRequest $request){
-        $post = Post::findOrFail($id);
-        $updatedPost = new Post($request->all());
-        $post['title'] = $updatedPost['title'];
-        $post['link'] = $updatedPost['link'];
-        $post->update();
-        $redirect = 'comments/' . $post['id'];
-        return redirect($redirect);
-    }
-    public function delete($id){
-        $post = Post::findOrFail($id);
-        $post->delete();
-        return redirect('home');
-    }
-    public function index()
+//    public function store(CommentRequest $request)
+//    {
+//        Auth::user()->comments()->create($request->all());
+//
+//        return back();
+//    }
+
+    public function store(Article $article,CommentRequest $request)
     {
-        $posts = Post::latest('updated_at')->get();
-        foreach ($posts as $post) {
-            $post['username'] = $post->user->name;
-            if(Comment::find($post['id'])){
-                $post['commentcount'] = $post->comments->count();
-            }
-            else{$post['commentcount'] = 0;}
+        $comment  = new Comments();
+        $userid = Auth::id();
+        $comment->user_id= $userid;
+//        $comment->article_id->$request;
+        $comment->body = request()->body;
+        $article->comments()->save($comment);
+        Auth::user()->comments()->create($request->all());
+        return back();
+    }
+
+    public function deletecomment(Comments $comment,article $article)
+    {
+        $articleid=$comment->article_id;
+        session()->flash('flash_delete','Are you sure you want to delete this comment.');
+        return view('comments.show', compact('comment','article'));
+    }
+    public function cancelcom(Comments $comment){
+        $articleid = $comment->article_id;
+        return redirect('comments/'.$articleid);
+    }
+    public function deletecommentconfirm(Comments $comment)
+    {
+        try{
+            $articleid = $comment->article_id;
+            $comment->delete();
+            session()->flash('flash_message','successfully deleted your comment.');
+            return redirect('comments/'.$articleid);
         }
-        return view('hackerpages.index', compact('posts'));
+        catch (\Exception $e){
+            session()->flash('flash_error', 'Something went wrong while deleting your comment, try again.');
+            return back();
+        }
     }
-    public function create()
+
+    public function edit(Comments $comment)
     {
-        return view('hackerpages.create');
+        if($comment->user_id===Auth::id()){
+            return view('comments.edit',compact('comment'));
+        }
+        else{
+            return redirect()->route('login');
+        }
     }
-    public function store(\App\Http\Requests\CreatePostRequest $request){
-        $post = new Post($request->all());
-        Auth::user()->posts()->save($post);
-        return redirect('home');
+    public function update(Request $request, Comments $comment)
+    {
+        try{
+            $comment->update($request->all());
+            $article=$comment->article_id;
+            session()->flash('flash_message','successfully edited your comment.');
+            return view('comments.edit',compact('comment','article'));
+        }
+        catch (\Exception $e){
+            session()->flash('flash_error', 'Something went wrong while editing your comment, try again.');
+            return back();
+        }
     }
-    public function addComment(){
-        $request = Request::all();
-        $request['user_id'] = Auth::user()->id;
-        $comment = Comment::create($request);
-        $post = Post::findOrFail($request['post_id']);
-        $post->updated_at = Carbon::now();
-        $post->save();
-        $redirect = 'comments/' . $request['post_id'];
-        return redirect($redirect);
+    /**
+     * @return string
+     */
+    public function back(Comments $comment)
+    {
+        $articleid = $comment->article_id;
+        return redirect('/comments/'.$articleid);
     }
 }

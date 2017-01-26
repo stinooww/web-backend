@@ -10,12 +10,13 @@
 | to using a Closure or controller method. Build something great!
 |
 */
-
+//
 //Route::get('/', function () {
-//    return view('welcome');
+//    return view('articles');
 //});
+Route::get('/', 'ArticleController@index');
 
-Auth::routes();
 Route::resource('articles','ArticleController');
 Route::resource('comments','CommentController');
 //Route::get('/home', 'HomeController@index');
+Auth::routes();
