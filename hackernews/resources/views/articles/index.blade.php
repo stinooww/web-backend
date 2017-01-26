@@ -2,7 +2,10 @@
 @extends('layouts.app')
 @section('content')
 
+    <div class="col-lg-12">
 
+        <h1>article overview</h1>
+    </div>
 
         <div class="panel-heading">            Articles overview        </div>
         <div class="panel-body">
@@ -13,8 +16,7 @@
                         <div class="col-lg-1">
                             <div class="vote">
                                 <form action="/articles/{{$article->id}}/up" method="POST">
-                                    {{csrf_field()}}
-                                    {{ method_field('PATCH') }}
+
                                     @if(Auth::user())
                                         <button >
                                             <i class="glyphicon glyphicon-chevron-up" title="upvote"></i>
@@ -24,8 +26,7 @@
                                     @endif
                                 </form>
                                 <form action="/articles/{{$article->id}}/down" method="POST">
-                                    {{csrf_field()}}
-                                    {{ method_field('PATCH') }}
+
                                     @if(Auth::user())
                                         <button>
                                             <i class="glyphicon glyphicon-chevron-down" title="downvote"></i>

@@ -12,6 +12,7 @@
 
     <!-- Styles -->
     <link href="/css/app.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
 
     <!-- Scripts -->
     <script>
@@ -85,7 +86,11 @@
             <div class="col-md-10 col-md-offset-1">
                 <div class="panel panel-default">
 
-
+    @if(Session::has('flash_message'))
+        <div class="alert alert-success"><span class="glyphicon glyphicon-ok"></span><em> {!! session('flash_message') !!}</em></div>
+    @elseif(Session::has('flash_error'))
+        <div class="alert alert-danger"><span class="glyphicon glyphicon-remove"></span><em> {!! session('flash_error') !!}</em></div>
+    @endif
                     @yield('content');
                 </div>
             </div>

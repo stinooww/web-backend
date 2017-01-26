@@ -36,14 +36,24 @@ class CommentController extends Controller
 
     public function store(Article $article,CommentRequest $request)
     {
-        $comment  = new Comments();
-        $userid = Auth::id();
-        $comment->user_id= $userid;
-//        $comment->article_id->$request;
-        $comment->body = request()->body;
-        $article->comments()->save($comment);
-        Auth::user()->comments()->create($request->all());
-        return back();
+        try{
+            Auth::user()->comments()->create($request->all());
+
+//            $comment  = new Comments();
+//            $userid = Auth::id();
+//            $comment->user_id= $userid;
+//            // $article=$comment->article_id;
+////        $comment->article_id->$request;
+//            $comment->body = request()->body;
+//            $article->comments()->save($comment);
+
+            session()->flash('flash_message', 'successfully added ' );
+            return back();
+        } catch (Exception $e) {
+            session()->flash('flash_error', 'Something went wrong while creating you"re comment, try again.');
+            return back();
+        }
+
     }
 
     public function deletecomment(Comments $comment,article $article)
@@ -59,10 +69,10 @@ class CommentController extends Controller
     public function deletecommentconfirm(Comments $comment)
     {
         try{
-            $articleid = $comment->article_id;
+            $articleID = $comment->article_id;
             $comment->delete();
             session()->flash('flash_message','successfully deleted your comment.');
-            return redirect('comments/'.$articleid);
+            return redirect('comments/'.$articleID);
         }
         catch (\Exception $e){
             session()->flash('flash_error', 'Something went wrong while deleting your comment, try again.');
@@ -70,31 +80,35 @@ class CommentController extends Controller
         }
     }
 
-    public function edit(Comments $comment)
-    {
-        if($comment->user_id===Auth::id()){
-            return view('comments.edit',compact('comment'));
-        }
-        else{
-            return redirect()->route('login');
-        }
+//    public function edit(Comments $comment)
+//    {
+//        if($comment->user_id===Auth::id()){
+//            return view('comments.edit',compact('comment'));
+//        }
+//        else{
+//            return redirect()->route('login');
+//        }
+//    }
+    public function edit($id){
+        $comment = Comments::findOrFail($id);
+
+        return view('comments.edit',compact('comment'));
     }
-    public function update(Request $request, Comments $comment)
-    {
+
+    public function update($id, CommentRequest $request){
         try{
-            $comment->update($request->all());
-            $article=$comment->article_id;
-            session()->flash('flash_message','successfully edited your comment.');
-            return view('comments.edit',compact('comment','article'));
+        $comment = Comments::findOrFail($id);
+        $comment->update($request->all());
+            session()->flash('flash_message', 'successfully updated ' );
+        return redirect('comments/'.$id);
         }
         catch (\Exception $e){
             session()->flash('flash_error', 'Something went wrong while editing your comment, try again.');
             return back();
         }
     }
-    /**
-     * @return string
-     */
+
+
     public function back(Comments $comment)
     {
         $articleid = $comment->article_id;
