@@ -56,19 +56,51 @@ class CommentController extends Controller
 
     }
 
-    public function delete(Comments $comment,article $article)
+//public function deletePage($id, Request $request)
+//{
+//    $comment = Comments::findOrFail($id);
+//    $referer = $request->server('HTTP_REFERER');
+//
+//    if ($referer == url('/comments', $comment->post_id)) {
+//        return redirect(url('/comments', $comment->post_id))->with('delete', 'delete')->with('comment_id', $id);
+//    } elseif ($referer == url('/comments/edit', $comment->id)) {
+//        return redirect(url('/comments/edit', $comment->id))->with('delete', 'delete');
+//    } else {
+//        return redirect(url('/'));
+//    }
+//}
+//    public function delete(Request $request)
+//    {
+//        if (isset($request->cancel)) {
+//            $comment = Comments::findOrFail($request->cancel);
+//            if ($request->from == 'overview') {
+//                $comment = Comments::findOrFail($request->cancel);
+//                $post = Post::findOrFail($comment->post_id);
+//                return redirect(url('/comments', $post->id));
+//            } elseif ($request->from == 'edit') {
+//                return redirect(url('/comments/edit', $comment->id));
+//            }
+//        } elseif (isset($request->delete)) {
+//            $comment = Comments::findOrFail($request->delete);
+//            $post = Post::findOrFail($comment->post_id);
+//            $comment->delete();
+//            return redirect(url('/comments', $post->id))->with('success', 'Your comment was deleted succesfully');
+//        }
+//    }
+    public function deleteComment(Comments $comment,article $article,$id)
     {
+        $comment = Comments::findOrFail($id);
         $articleid=$comment->article_id;
         session()->flash('flash_delete','Are you sure you want to delete this comment.');
         return view('comments.show', compact('comment','article'));
     }
-    public function cancelcomment(Comments $comment){
+    public function cancelComment(Comments $comment){
         $id = $comment->article_id;
         return redirect('comments/'.$id);
     }
 
 
-    public function deletecommentconfirm(Comments $comment)
+    public function delete(Comments $comment)
     {
         try{
             $articleID = $comment->article_id;
@@ -113,7 +145,7 @@ class CommentController extends Controller
 
     public function back(Comments $comment)
     {
-        $articleid = $comment->article_id;
-        return redirect('/comments/'.$articleid);
+        $id = $comment->article_id;
+        return redirect('/comments/'.$id);
     }
 }

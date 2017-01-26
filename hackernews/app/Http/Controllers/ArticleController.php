@@ -94,28 +94,29 @@ class ArticleController extends Controller
 //        return redirect()->back();
 //    }
 
-    public function deletearticle(Article $article)
+    public function delete(Article $article)
     {
         session()->flash('flash_delete', 'Are you sure you want to delete this comment.');
         return view('articles.edit', compact('article'));
     }
 
-    public function deletearticlecancel(article $article)
+    public function delartcancel($id)
     {
-        return redirect('articles/'.$article->id.'/edit');
+        return redirect('articles/'.$id.'/edit');
     }
 
     public function deletearticleconfirm(Article $article)
     {
         try {
-            if ($article->user_id == Auth::id()) {
+            if ( Auth::user()) {
+
                 $article->delete();
                 session()->flash('flash_message', 'successfully deleted ' . $article->title);
-                return redirect('home');
+                 return redirect('articles');
             }
         } catch (\Exception $e) {
             session()->flash('flash_error', 'Something went wrong while deleting your article, try again.');
-            return redirect('articles.index');
+            return redirect('articles');
         }
     }
 //    public function down($id ,Request $request)
@@ -140,7 +141,7 @@ class ArticleController extends Controller
                 return redirect()->back();
             } catch (\Exception $e) {
                 session()->flash('flash_error', 'Something went wrong while upvoting your article, try again.'.$e);
-                return  redirect()->back();
+                return  back();
             }
         }
 
@@ -178,5 +179,9 @@ class ArticleController extends Controller
 //            return redirect(url('/'))->with('success', 'Your post was deleted succesfully');
 //        }
 //    }
-
+    public function back(Article $article)
+    {
+        $id = $article->article_id;
+        return redirect('/articles/'.$id);
+    }
 }
